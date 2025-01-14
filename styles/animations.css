@@ -1,0 +1,8 @@
+.table-wrapper {
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}

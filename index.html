@@ -1,581 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Post Install</title>
-    <style>
-        .hidden {
-            display: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <h2>WPI - Windows <span style="text-decoration:line-through;"> Pirata</span> Post Install</h2>
-    <label for="category">Elegir Categoría:</label>
-    <select id="category" onchange="showTable()">
-        <option value="windows">Office y Windows</option>
-        <option value="redistributables">Redistributables</option>
-        <option value="juegos">Juegos Piratas</option>
-        <option value="minecraft">Launchers de Minecraft</option>
-        <option value="roms">Roms</option>
-        <option value="emuladores">Emuladores</option>
-        <option value="software">Software</option>
-        <option value="navegadores">Navegadores</option>
-        <option value="antivirus">Antivirus</option>
-        <option value="herramientas">Herramientas</option>
-        <option value="scripts">Scripts</option>
-        
-    </select>
+    <nav class="top-nav">
+        <div class="logo">
+            <i class="fas fa-desktop"></i> WPI
+        </div>
+        <div class="nav-controls">
+            <label for="category">Elegir Categoría:</label>
+            <select id="category" onchange="showTable()">
+                <option value="windows">📑 Office y Windows</option>
+                <option value="redistributables">🔧 Redistributables</option>
+                <option value="juegos">🎮 Juegos Piratas</option>
+                <option value="minecraft">⛏️ Launchers de Minecraft</option>
+                <option value="roms">💾 Roms</option>
+                <option value="emuladores">🎲 Emuladores</option>
+                <option value="software">💻 Software</option>
+                <option value="navegadores">🌐 Navegadores</option>
+                <option value="antivirus">🛡️ Antivirus</option>
+                <option value="herramientas">🔨 Herramientas</option>
+                <option value="scripts">📜 Scripts</option>
+            </select>
+        </div>
+    </nav>
 
-    <head>Si algo pide contraseña, es www.compucalitv.com</head>
+    <header class="site-header">
+        <h1>Windows <span class="strike">Pirata</span> Post Install</h1>
+        <p class="subtitle">Una colección de herramientas y recursos esenciales</p>
+        <div class="alert">
+            <i class="fas fa-info-circle"></i>
+            Si algo pide contraseña, es www.compucalitv.com
+        </div>
+    </header>
 
-    <hr />
+    <div class="content-container">
+        <div class="table-sections">
+            <div class="table-wrapper" id="windowsTable">
+                <table class="fl-table">
+                    <tr>
+                        <th>Office y Windows</th>
+                    </tr>
+                    <tr>
+                        <td>Windows 11</td>
+                        <td><a href="https://www.microsoft.com/es-es/software-download/windows11" target=”_blank”>Base</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Windows 10</td>
+                        <td>
+                            <a href="https://archive.org/details/windows-10-2022-update-spanish-x64" target=”_blank”>22H2</a> 
+                            <a href="https://archive.org/details/19044.1288.211006-0501.21h-2-release-svc-refresh-cliententerpriseeval-oemret-x-64-fre-en-us" target=”_blank”>21H2</a>
+                            <a href="https://archive.org/details/19041.1415.211207-1656.-vb-release-svc-prod-1-clientpro-oemret-x-64-fre-en-us" target=”_blank”>20H1</a>
+                            <a href="https://archive.org/details/windows-1909" target=”_blank”>1909</a>
+                            <a href="https://archive.org/details/windows-1809" target=”_blank”>1809</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Windows 8.1</td>
+                        <td><a href="https://www.microsoft.com/es-es/software-download/windows8ISO" target=”_blank”>Base</a></td>
+                    </tr>
+                    <tr>
+                        <td>Windows 7</td>
+                        <td><a href="https://archive.org/details/windows7-ultimate-sp1-esp" target=”_blank”>Ultimate</a></td>
+                    </tr>
+                    <tr>
+                        <td>Office 2021</td>
+                        <td><a href="https://www.mediafire.com/file/6bdj9ywmmmmxf7o/office21.zip/file" target=”_blank”>x64</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Office 2016</td>
+                        <td><a href="https://mega.nz/file/CdBxSbLS#614g-IPqmXHKsbizJE4TIxpI2vKNbOwDKKpjDaBPWR4" target=”_blank”>x64</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>LibreOffice</td>
+                        <td>
+                            <a href="https://es.libreoffice.org/descarga/libreoffice/" target=”_blank”>Última</a> 
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table-wrapper" id="redistributablesTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Redistributables</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Microsoft Visual C++</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/18BqlPHXvIqB5fmcbqT2LqKp5YrHnv08y/view?usp=share_link" target=”_blank”>2005 x64</a>
+                            <a href="https://drive.google.com/file/d/1IbQw6DFX6fZ0zy84VJedHOfxERFQdwKD/view?usp=share_link" target=”_blank”>2005 x86</a>
+                            <a href="https://drive.google.com/file/d/1Jx8aRiYMkIzKxlX8gRG50XaMYjDMXwL3/view?usp=share_link" target=”_blank”>2008 x64</a>
+                            <a href="https://drive.google.com/file/d/1Ldbag72_URmkSYDUbCv81UQtoi3nf_dR/view?usp=share_link" target=”_blank”>2008 x86</a>
+                            <a href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe" target=”_blank”>2010 x64</a>
+                            <a href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe" target=”_blank”>2010 x86</a>
+                            <a href="https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe" target=”_blank”>2012 x64</a>
+                            <a href="https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe" target=”_blank”>2012 x86</a>
+                            <a href="https://aka.ms/highdpimfc2013x64enu" target=”_blank”>2013 x64</a>
+                            <a href="https://aka.ms/highdpimfc2013x86enu" target=”_blank”>2013 x86</a>
+                            <a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target=”_blank”>2015, 2017, 2019 y 2022 x64</a>
+                            <a href="https://aka.ms/vs/17/release/vc_redist.x86.exe" target=”_blank”>2015, 2017, 2019 y 2022 x86</a>
+                            <a href="https://aka.ms/vs/17/release/vc_redist.arm64.exe" target=”_blank”>2015, 2017, 2019 y 2022 ARM64</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>DirectX</td>
+                        <td><a href="https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>DirectXA</td>
+                        <td><a href="https://drive.google.com/file/d/1_K69NmAp23PhYU4WkNlRfzik8AfiSamL/view?usp=share_link" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>dotNET</td>
+                        <td>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/89a2923a-18df-4dce-b069-51e687b04a53/9db4348b561703e622de7f03b1f11e93/dotnet-sdk-7.0.203-win-x64.exe" target=”_blank”>7 x64</a>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/60253bf7-2405-4ee4-84ea-0a5fc9764f13/f5bd3e91214abfbb89e0f522e92aca70/dotnet-sdk-7.0.203-win-x86.exe" target=”_blank”>7 x86</a>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/99681982-34f1-447c-996f-e2deeaccc2b0/097021e4edee399854ad3bb1032db86d/dotnet-sdk-7.0.203-win-arm64.exe" target=”_blank”>7 ARM64</a>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/df42b901-8ce2-4131-941a-b3fa094ff3d8/556da65f7a2f6164bf3df932e030898a/dotnet-sdk-6.0.408-win-x64.exe" target=”_blank”>6 x64</a>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/43e1af49-c5e0-4df8-b4c1-aab805e823bc/9b215244f10ee4606e28fcdb0f63ebd1/dotnet-sdk-6.0.408-win-x86.exe" target=”_blank”>6 x86</a>
+                            <a href="https://download.visualstudio.microsoft.com/download/pr/4a7ae9d1-fb98-4e1d-a2d7-3d9903973312/b9f80d6eaa94f7b04cb45241ec515ff6/dotnet-sdk-6.0.408-win-arm64.exe" target=”_blank”>6 ARM64</a>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="windowsTable">
-        <table class="fl-table">
-            <tr>
-                <th>|Office y Windows|</th>
-                <th>|Versión|</th>
-            </tr>
-            <tr>
-                <td>Windows 11</td>
-                <td><a href="https://www.microsoft.com/es-es/software-download/windows11" target=”_blank”>Base</a> </td>
-            </tr>
-            <tr>
-                <td><a>Windows 10</a></td>
-                <td><a href="https://archive.org/details/windows-10-2022-update-spanish-x64" target=”_blank”>22H2</a> 
-                    <a href="https://archive.org/details/19044.1288.211006-0501.21h-2-release-svc-refresh-cliententerpriseeval-oemret-x-64-fre-en-us" target=”_blank”>21H2</a>
-                    <a href="https://archive.org/details/19041.1415.211207-1656.-vb-release-svc-prod-1-clientpro-oemret-x-64-fre-en-us" target=”_blank”>20H1</a>
-                    <a href="https://archive.org/details/windows-1909" target=”_blank”>1909</a>
-                    <a href="https://archive.org/details/windows-1809" target=”_blank”>1809</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Windows 8.1</td>
-                <td><a href="https://www.microsoft.com/es-es/software-download/windows8ISO" target=”_blank”>Base</a></td>
-            </tr>
-            <tr>
-                <td>Windows 7</td>
-                <td><a href="https://archive.org/details/windows7-ultimate-sp1-esp" target=”_blank”>Ultimate</a></td>
-            </tr>
-            <tr>
-                <td><a>Office 2021</a></td>
-                <td><a href="https://www.mediafire.com/file/6bdj9ywmmmmxf7o/office21.zip/file" target=”_blank”>x64</a> 
-                </td>
-            </tr>
-            <tr>
-                <td><a>Office 2016</a></td>
-                <td><a href="https://mega.nz/file/CdBxSbLS#614g-IPqmXHKsbizJE4TIxpI2vKNbOwDKKpjDaBPWR4" target=”_blank”>x64</a> 
-                </td>
-            </tr>
-            <tr>
-                <td><a href="https://es.libreoffice.org/descarga/libreoffice/" target=”_blank”>LibreOffice</a></td>
-            </tr>
-        </table>
-    </div>
-    <div class="table-wrapper" id="redistributablesTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Redistributables|</th>
-                <th>|Versión|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Microsoft Visual C++</td>
-                <td><a href="https://drive.google.com/file/d/18BqlPHXvIqB5fmcbqT2LqKp5YrHnv08y/view?usp=share_link" target=”_blank”>2005 x64</a></td>
-                <td><a href="https://drive.google.com/file/d/1IbQw6DFX6fZ0zy84VJedHOfxERFQdwKD/view?usp=share_link" target=”_blank”>2005 x86</a></td>
-                <td><a href="https://drive.google.com/file/d/1Jx8aRiYMkIzKxlX8gRG50XaMYjDMXwL3/view?usp=share_link" target=”_blank”>2008 x64</a></td>
-                <td><a href="https://drive.google.com/file/d/1Ldbag72_URmkSYDUbCv81UQtoi3nf_dR/view?usp=share_link" target=”_blank”>2008 x86</a></td>
-                <td><a href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe" target=”_blank”>2010 x64</a></td>
-                <td><a href="https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe" target=”_blank”>2010 x86</a></td>
-                <td><a href="https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe" target=”_blank”>2012 x64</a></td>
-                <td><a href="https://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe" target=”_blank”>2012 x86</a></td>
-                <td><a href="https://aka.ms/highdpimfc2013x64enu" target=”_blank”>2013 x64</a></td>
-                <td><a href="https://aka.ms/highdpimfc2013x86enu" target=”_blank”>2013 x86</a></td>
-                <td><a href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target=”_blank”>2015, 2017, 2019 y 2022 x64</a></td>
-                <td><a href="https://aka.ms/vs/17/release/vc_redist.x86.exe" target=”_blank”>2015, 2017, 2019 y 2022 x86</a></td>
-                <td><a href="https://aka.ms/vs/17/release/vc_redist.arm64.exe" target=”_blank”>2015, 2017, 2019 y 2022 ARM64</a></td>
-            </tr>
-            <tr>
-                <td>DirectX</td>
-                <td><a href="https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>DirectXA</td>
-                <td><a href="https://drive.google.com/file/d/1_K69NmAp23PhYU4WkNlRfzik8AfiSamL/view?usp=share_link" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>dotNET</td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/89a2923a-18df-4dce-b069-51e687b04a53/9db4348b561703e622de7f03b1f11e93/dotnet-sdk-7.0.203-win-x64.exe" target=”_blank”>7 x64</a></td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/60253bf7-2405-4ee4-84ea-0a5fc9764f13/f5bd3e91214abfbb89e0f522e92aca70/dotnet-sdk-7.0.203-win-x86.exe" target=”_blank”>7 x86</a></td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/99681982-34f1-447c-996f-e2deeaccc2b0/097021e4edee399854ad3bb1032db86d/dotnet-sdk-7.0.203-win-arm64.exe" target=”_blank”>7 ARM64</a></td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/df42b901-8ce2-4131-941a-b3fa094ff3d8/556da65f7a2f6164bf3df932e030898a/dotnet-sdk-6.0.408-win-x64.exe" target=”_blank”>6 x64</a></td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/43e1af49-c5e0-4df8-b4c1-aab805e823bc/9b215244f10ee4606e28fcdb0f63ebd1/dotnet-sdk-6.0.408-win-x86.exe" target=”_blank”>6 x86</a></td>
-                <td><a href="https://download.visualstudio.microsoft.com/download/pr/4a7ae9d1-fb98-4e1d-a2d7-3d9903973312/b9f80d6eaa94f7b04cb45241ec515ff6/dotnet-sdk-6.0.408-win-arm64.exe" target=”_blank”>6 ARM64</a></td>
-            </tr>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="juegosTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Juegos Piratas</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://anadius.su/" target=”_blank”>Anadius (Sims)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://rentry.org/pgames" target=”_blank”>Pirated Games Mega Thread</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://rezi.one/" target=”_blank”>Página para buscar juegos pirata</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://compu-pc.com/" target=”_blank”>Reemplazo de Compucalitv</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.gog-games.to/" target=”_blank”>DRM-Free de GOG</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="juegosTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Juegos Piratas|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://anadius.su/" target=”_blank”>Anadius (Sims)</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rentry.org/pgames" target=”_blank”>Pirated Games Mega Thread</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rezi.one/" target=”_blank”>Página para buscar juegos pirata</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://compu-pc.com/" target=”_blank”>Reemplazo de Compucalitv</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.gog-games.to/" target=”_blank”>DRM-Free de GOG</a></td>
-            </tr>
-            <tr>
-                <td><a href="" target=”_blank”></a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="minecraftTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Minecraft</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://skmedix.pl/" target=”_blank”>SKLauncher</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/UltimMC/Launcher" target=”_blank”>UltimMC (MultiMC Pirata)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/fn2006/PollyMC" target=”_blank”>PollyMC (Prism Launcher Pirata)</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="minecraftTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Minecraft|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://skmedix.pl/" target=”_blank”>SKLauncher</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/UltimMC/Launcher" target=”_blank”>UltimMC (MultiMC Pirata)</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/fn2006/PollyMC" target=”_blank”>PollyMC (Prism Launcher Pirata)</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="romsTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Roms</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://r-roms.github.io/" target=”_blank”>Megathread</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://cdromance.com/" target=”_blank”>CDRomance</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://edgeemu.net/" target=”_blank”>EdgeEmulation</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://game-2u.com/" target=”_blank”>PS4 y PC</a></td>
+                    </tr>
+                    <tr>
+                        <td>NSWGame</td>
+                        <td>
+                            <a href="https://nswgame.com/category/switch/" target=”_blank”>Switch</a>
+                            <a href="https://nswgame.com/category/game-wii/" target=”_blank”>Wii</a>
+                            <a href="https://nswgame.com/category/game-wii-u/" target=”_blank”>Wii-U</a>
+                            <a href="https://nswgame.com/category/ds/" target=”_blank”>DS</a>
+                            <a href="https://nswgame.com/category/3ds/" target=”_blank”>3DS</a>
+                            <a href="https://dlpsgame.com/category/ps4/" target=”_blank”>PS4</a>
+                            <a href="https://dlpsgame.com/category/ps3/" target=”_blank”>PS3</a>
+                            <a href="https://dlpsgame.com/category/ps2/" target=”_blank”>PS2</a>
+                            <a href="https://downloadgamepsp.org/" target=”_blank”>PSP</a>
+                            <a href="https://downloadgamepsp.org/category/psvita-game-free-new/" target=”_blank”>PSVita</a>
+                            <a href="https://dlxbgame.com/" target=”_blank”>Xbox 360</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ziperto.com/" target=”_blank”>Ziperto</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://vimm.net/?p=vault" target=”_blank”>Vimm's Lair</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="romsTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Roms|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://r-roms.github.io/" target=”_blank”>Megathread</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://cdromance.com/" target=”_blank”>CDRomance</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://edgeemu.net/" target=”_blank”>EdgeEmulation</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://game-2u.com/" target=”_blank”>PS4 y PC</a></td>
-            </tr>
-            <tr>
-                <td>NSWGame</td>
-                <td><a href="https://nswgame.com/category/switch/" target=”_blank”>Switch</a></td>
-                <td><a href="https://nswgame.com/category/game-wii/" target=”_blank”>Wii</a></td>
-                <td><a href="https://nswgame.com/category/game-wii-u/" target=”_blank”>Wii-U</a></td>
-                <td><a href="https://nswgame.com/category/ds/" target=”_blank”>DS</a></td>
-                <td><a href="https://nswgame.com/category/3ds/" target=”_blank”>3DS</a></td>
-                <td><a href="https://dlpsgame.com/category/ps4/" target=”_blank”>PS4</a></td>
-                <td><a href="https://dlpsgame.com/category/ps3/" target=”_blank”>PS3</a></td>
-                <td><a href="https://dlpsgame.com/category/ps2/" target=”_blank”>PS2</a></td>
-                <td><a href="https://downloadgamepsp.org/" target=”_blank”>PSP</a></td>
-                <td><a href="https://downloadgamepsp.org/category/psvita-game-free-new/" target=”_blank”>PSVita</a></td>
-                <td><a href="https://dlxbgame.com/" target=”_blank”>Xbox 360</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.ziperto.com/" target=”_blank”>Ziperto</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://vimm.net/?p=vault" target=”_blank”>Vimm's Lair</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="softwareTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Sotware General</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Windscribe (VPN, 10GB Gratis)</td>
+                        <td><a href="https://esp.windscribe.com/" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>Winrar</td>
+                        <td><a href="https://mega.nz/#!ujwAVajY!deF8qNgUrpFmXpF6mb9b9iYGPtpkk4ZxPx6xx0Mb3ZQ" target=”_blank”>5.50</a></td>
+                    </tr>
+                    <tr>
+                        <td>Chocolatey</td>
+                        <td><a href="https://chocolatey.org/install" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>Chocolatey-GUI</td>
+                        <td><a href="https://github.com/chocolatey/ChocolateyGUI" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>Rufus</td>
+                        <td><a href="https://rufus.ie/es/" target=”_blank”>Todas</a></td>
+                    </tr>
+                    <tr>
+                        <td>IObit Driver Booster</td>
+                        <td><a href="https://drive.google.com/file/d/13YfrPYyq9JG3MwRS9WduE3fA8WBEhfPD/view?usp=share_link" target=”_blank”>10</a></td>
+                    </tr>
+                    <tr>
+                        <td>Daemon Tools</td>
+                        <td><a href="https://www.mediafire.com/file/urry35eiq03xvqr/Daemon_Tools_PRO__%5BiOnlyTutos%5D.exe/file" target=”_blank”>6</a></td>
+                    </tr>
+                    <tr>
+                        <td>JDownloader</td>
+                        <td><a href="https://jdownloader.org/download/index" target=”_blank”>2</a></td>
+                    </tr>
+                    <tr>
+                        <td>Motrix</td>
+                        <td><a href="https://motrix.app/download" target=”_blank”>Última</a></td>
+                    </tr>
+                    <tr>
+                        <td>AtlasOS</td>
+                        <td><a href="https://atlasos.net" target="_blank">10 y 11</a></td>
+                    <tr>
+                        <td>KMSAuto++</td>
+                        <td><a href="https://drive.google.com/file/d/1s3fw_yW6T3_fSzn97kV2HpXO-eYK-DVX/view?usp=share_link" target=”_blank”>1.7.9</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="softwareTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Sotware General|</th>
-                <th>|Versión|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Windscribe (VPN, 10GB Gratis)</td>
-                <td><a href="https://esp.windscribe.com/" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>Winrar</td>
-                <td><a href="https://mega.nz/#!ujwAVajY!deF8qNgUrpFmXpF6mb9b9iYGPtpkk4ZxPx6xx0Mb3ZQ" target=”_blank”>5.50</a></td>
-            </tr>
-            <tr>
-                <td>Chocolatey</td>
-                <td><a href="https://chocolatey.org/install" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>Chocolatey-GUI</td>
-                <td><a href="https://github.com/chocolatey/ChocolateyGUI" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>Rufus</td>
-                <td><a href="https://rufus.ie/es/" target=”_blank”>Todas</a></td>
-            </tr>
-            <tr>
-                <td>IObit Driver Booster</td>
-                <td><a href="https://drive.google.com/file/d/13YfrPYyq9JG3MwRS9WduE3fA8WBEhfPD/view?usp=share_link" target=”_blank”>10</a></td>
-            </tr>
-            <tr>
-                <td>Daemon Tools</td>
-                <td><a href="https://www.mediafire.com/file/urry35eiq03xvqr/Daemon_Tools_PRO__%5BiOnlyTutos%5D.exe/file" target=”_blank”>6</a></td>
-            </tr>
-            <tr>
-                <td>JDownloader</td>
-                <td><a href="https://jdownloader.org/download/index" target=”_blank”>2</a></td>
-            </tr>
-            <tr>
-                <td>Motrix</td>
-                <td><a href="https://motrix.app/download" target=”_blank”>Última</a></td>
-            </tr>
-            <tr>
-                <td>AtlasOS</td>
-                <td><a href="https://atlasos.net" target="_blank">10 y 11</a></td>
-            <tr>
-                <td>KMSAuto++</td>
-                <td><a href="https://drive.google.com/file/d/1s3fw_yW6T3_fSzn97kV2HpXO-eYK-DVX/view?usp=share_link" target=”_blank”>1.7.9</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="navegadoresTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Navegadores</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://www.google.com/chrome/" target=”_blank”>Chrome</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://chromium.woolyss.com/#win64-stable-sync-hibbiki" target=”_blank”>Chromium</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://arc.net/download" target=”_blank”>Arc</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://download.mozilla.org/?product=firefox-stub&os=win&lang=es-AR" target=”_blank”>Firefox</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://laptop-updates.brave.com/latest/winx64" target=”_blank”>Brave</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.opera.com/es-419/computer/thanks?ni=stable&os=windows" target=”_blank”>Opera</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.opera.com/es/computer/thanks?ni=eapgx&os=windows" target=”_blank”>Opera GX</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="http://kmeleonbrowser.org/download.php" target=”_blank”>K-Meleon</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.seamonkey-project.org/releases/" target=”_blank”>SeaMonkey</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.falkon.org/download/" target=”_blank”>Falkon</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.palemoon.org/download.shtml" target=”_blank”>Pale Moon</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.waterfox.net/download/" target=”_blank”>Waterfox</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="navegadoresTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Navegadores|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://www.google.com/chrome/" target=”_blank”>Chrome</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://chromium.woolyss.com/#win64-stable-sync-hibbiki" target=”_blank”>Chromium</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://arc.net/download" target=”_blank”>Arc</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://download.mozilla.org/?product=firefox-stub&os=win&lang=es-AR" target=”_blank”>Firefox</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://laptop-updates.brave.com/latest/winx64" target=”_blank”>Brave</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.opera.com/es-419/computer/thanks?ni=stable&os=windows" target=”_blank”>Opera</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.opera.com/es/computer/thanks?ni=eapgx&os=windows" target=”_blank”>Opera GX</a></td>
-            </tr>
-            <tr>
-                <td><a href="http://kmeleonbrowser.org/download.php" target=”_blank”>K-Meleon</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.seamonkey-project.org/releases/" target=”_blank”>SeaMonkey</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.falkon.org/download/" target=”_blank”>Falkon</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.palemoon.org/download.shtml" target=”_blank”>Pale Moon</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.waterfox.net/download/" target=”_blank”>Waterfox</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="emuladoresTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Emuladores</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://emulation.gametechwiki.com/index.php/Main_Page" target=”_blank”>BIOS</a></td>
+                    </tr>
+                    <tr>
+                        <td>Multisistema</td>
+                        <td>
+                            <a href="https://www.mamedev.org/index.php" target=”_blank”>MAME</a>
+                            <a href="https://www.retroarch.com/" target=”_blank”>Retroarch</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/Rosalie241/RMG" target=”_blank”>Nintendo 64</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://dolphin-emu.org/" target=”_blank”>Gamecube/Wii</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://mgba.io/" target=”_blank”>Game Boy Advance</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://melonds.kuribo64.net/" target=”_blank”>DS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://citra-emu.org/" target=”_blank”>3DS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://cemu.info/" target=”_blank”>Wii U</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://ryujinx.org/" target=”_blank”>Switch (Ryujinx)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.epsxe.com/" target=”_blank”>PS1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://pcsx2.net/" target=”_blank”>PS2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ppsspp.org/index.html" target=”_blank”>PSP</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://vita3k.org/" target=”_blank”>PSVita</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://rpcs3.net/" target=”_blank”>PS3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://xemu.app/" target=”_blank”>Xbox</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://xenia.jp/" target=”_blank”>Xbox 360</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="emuladoresTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Emuladores|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://emulation.gametechwiki.com/index.php/Main_Page" target=”_blank”>BIOS</a></td>
-            </tr>
-            <tr>
-                <td>Multisistema</td>
-                <td><a href="https://www.mamedev.org/index.php" target=”_blank”>NAME</a></td>
-                <td><a href="https://www.retroarch.com/" target=”_blank”>Retroarch</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/Rosalie241/RMG" target=”_blank”>Nintendo 64</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://dolphin-emu.org/" target=”_blank”>Gamecube/Wii</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://mgba.io/" target=”_blank”>Game Boy Advance</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://melonds.kuribo64.net/" target=”_blank”>DS</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://citra-emu.org/" target=”_blank”>3DS</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://cemu.info/" target=”_blank”>Wii U</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://ryujinx.org/" target=”_blank”>Switch (Ryujinx)</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.epsxe.com/" target=”_blank”>PS1</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://pcsx2.net/" target=”_blank”>PS2</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://www.ppsspp.org/index.html" target=”_blank”>PSP</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://vita3k.org/" target=”_blank”>PSVita</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rpcs3.net/" target=”_blank”>PS3</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://xemu.app/" target=”_blank”>Xbox</a></td>
-            </tr>
-            <tr>
-                <td><a href="https://xenia.jp/" target=”_blank”>Xbox 360</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="antivirusTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Antivirus</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://playpaste.com/pivi/?v=XB" target=”_blank”>Malwarebytes</a></td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="antivirusTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Antivirus|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://playpaste.com/pivi/?v=XB" target=”_blank”>Malwarebytes</a></td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
+            <div class="table-wrapper" id="herramientasTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Herramientas</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Autoruns</td>
+                        <td><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns" target=”_blank”>14.09</a></td>
+                        <td>Es una herramienta de windows, que sirve para modificar y eliminar programas, servicios, tareas, extensiones del sistema y más cosas que se ejecutan al inicio.</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Resolution Utility</a></td>
+                        <td><a href="https://www.monitortests.com/download/cru/cru-1.5.2.zip" target=”_blank”>1.5.2</a></td>
+                        <td>Sirve para ponerle una resolución personalizada al monitor.</td>
+                    </tr>
+                    <tr>
+                        <td>Winaero Tweaker</td>
+                        <td><a href="https://winaero.com/winaero-tweaker/" target=”_blank”>1.52</a></td>
+                        <td>Expone opciones ocultas de windows y regedit.</td>
+                    </tr>
+                    <tr>
+                        <td>InSpectre</td>
+                        <td><a href="https://www.grc.com/inspectre.htm" target=”_blank”>Release 8</a></td>
+                        <td>Es para ver que tu pc no explote.</td>
+                    </tr>
+                    <tr>
+                        <td>DControl</td>
+                        <td><a href="https://www.sordum.org/9480/defender-control-v2-1/" target=”_blank”>2.1</a></td>
+                        <td>Sirve para cambiar opciones de Windows Defender.</td>
+                    </tr>
+                    <tr>
+                        <td>LGPO</td>
+                        <td><a href="https://github.com/r33int/Windows10-Postinstall/tree/main/LGPO" target=”_blank”>2.1</a></td>
+                        <td>Es una herramienta para modificar la Group Policy de Windows, esta en específico desactiva la instalación automática de drivers por Windows Update, Desactiva Windows Defender, Desactiva los servicios de Geolocalización, Limita la telemetría y la recolección de datos, Desactiva Windows Spotlight, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>CreamAPI</td>
+                        <td><a href="https://github.com/pointfeev/CreamInstaller/releases/latest" target=”_blank”>Última</a></td>
+                        <td>Piratear DLC de juegos que tengas en Steam.</td>
+                    </tr>
+                    <tr>
+                        <td>DreamAPI</td>
+                        <td><a href="https://github.com/acidicoala/dream-api/releases/latest" target=”_blank”>Última</a></td>
+                        <td>Piratear DLC de juegos que tengas en Epic y EA/Origin.</td>
+                    </tr>
+                    <tr>
+                        <td>LumaPlay</td>
+                        <td><a href="https://cs.rin.ru/forum/viewtopic.php?f=29&t=67197" target=”_blank”>Última</a></td>
+                        <td>Jugar juegos de Ubisoft sin Uplay</td>
+                    </tr>
+                    <tr>
+                        <td>Plutonium</td>
+                        <td><a href="https://plutonium.pw/" target=”_blank”>Última</a></td>
+                        <td>Servidores dedicados de Call Of Duty</td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
 
-    <div class="table-wrapper" id="herramientasTable">
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Herramientas|</th>
-                <th>|Versión|</th>
-                <th>|Descripción|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Autoruns</td>
-                <td><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns" target=”_blank”>14.09</a></td>
-                <td>Es una herramienta de windows, que sirve para modificar y eliminar programas, servicios, tareas, extensiones del sistema y más cosas que se ejecutan al inicio.</td>
-            </tr>
-            <tr>
-                <td>Custom Resolution Utility</a></td>
-                <td><a href="https://www.monitortests.com/download/cru/cru-1.5.2.zip" target=”_blank”>1.5.2</a></td>
-                <td>Sirve para ponerle una resolución personalizada al monitor.</td>
-            </tr>
-            <tr>
-                <td>Winaero Tweaker</td>
-                <td><a href="https://winaero.com/winaero-tweaker/" target=”_blank”>1.52</a></td>
-                <td>Expone opciones ocultas de windows y regedit.</td>
-            </tr>
-            <tr>
-                <td>InSpectre</td>
-                <td><a href="https://www.grc.com/inspectre.htm" target=”_blank”>Release 8</a></td>
-                <td>Es para ver que tu pc no explote.</td>
-            </tr>
-            <tr>
-                <td>DControl</td>
-                <td><a href="https://www.sordum.org/9480/defender-control-v2-1/" target=”_blank”>2.1</a></td>
-                <td>Sirve para cambiar opciones de Windows Defender.</td>
-            </tr>
-            <tr>
-                <td>LGPO</td>
-                <td><a href="https://github.com/r33int/Windows10-Postinstall/tree/main/LGPO" target=”_blank”>2.1</a></td>
-                <td>Es una herramienta para modificar la Group Policy de Windows, esta en específico desactiva la instalación automática de drivers por Windows Update, Desactiva Windows Defender, Desactiva los servicios de Geolocalización, Limita la telemetría y la recolección de datos, Desactiva Windows Spotlight, etc.</td>
-            </tr>
-            <tr>
-                <td>CreamAPI</td>
-                <td><a href="https://github.com/pointfeev/CreamInstaller/releases/latest" target=”_blank”>Última</a></td>
-                <td>Piratear DLC de juegos que tengas en Steam.</td>
-            </tr>
-            <tr>
-                <td>DreamAPI</td>
-                <td><a href="https://github.com/acidicoala/dream-api/releases/latest" target=”_blank”>Última</a></td>
-                <td>Piratear DLC de juegos que tengas en Epic y EA/Origin.</td>
-            </tr>
-            <tr>
-                <td>LumaPlay</td>
-                <td><a href="https://cs.rin.ru/forum/viewtopic.php?f=29&t=67197" target=”_blank”>Última</a></td>
-                <td>Jugar juegos de Ubisoft sin Uplay</td>
-            </tr>
-            <tr>
-                <td>Plutonium</td>
-                <td><a href="https://plutonium.pw/" target=”_blank”>Última</a></td>
-                <td>Servidores dedicados de Call Of Duty</td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
-
-    <div class="table-wrapper" id="scriptsTable">
-        <head>Saqué los scripts de acá:  <a href="https://github.com/r33int/Windows10-Postinstall" target=”_blank”>Github de r33int</head> </a>
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Scripts|</th>
-                <th>|Descripción|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/12-XvDlyRbDmNFVfyXeAehOFHE9oMwUb6/view?usp=share_link" target=”_blank”>contentDeliveryManager.ps1</a> </td>
-                <td>Este script prevee que windows instale aplicaciones no deseadas (EJ: Tiktok o Candy Crush).</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1WILyiBC0KYssO3690bdA_y4y-Id2CBeP/view?usp=share_link" target=”_blank”>fsutil.ps1</a> </td>
-                <td>Este script aplica varias mejoras para el sistema de archivos NTFS usando el comando fsutil.</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1vbtKUpQgGk4LGPyb2cnrQnLf4RgdwZ7w/view?usp=share_link" target=”_blank”>registryTweaks.ps1</a></td>
-                <td>Este script contiene varias mejoras que se aplican al registro de Windows.</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1pnir-dFM_mF7Imj48I751VUZM_lLtbe4/view?usp=share_link" target=”_blank”>removeApps.ps1</a></td>
-                <td>Este script desinstala aplicaciones UWP "inútiles" en el usuario actual, para hacer el sistema tan mínimo como sea posible.</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1xZYnJbYG3jfeSUKJZybOPQfI-n6JI8T6/view?usp=share_link" target=”_blank”>removeOneDrive.ps1</a></td>
-                <td>Este script completamente remueve OneDrive. POR FIN</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1SsOb5TnrhA7mLwdRbMkP1sZa_5h7vs2T/view?usp=share_link" target=”_blank”>scheduledTasks.ps1</a></td>
-                <td>Este script desactiva un par de tareas usadas para telemetría y recolección de datos, osea, mejora la privacidad.</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/10TAd0K6K_mwdL-IDh5rK_CppQGmBnl_x/view?usp=share_link" target=”_blank”>services.ps1</a></td>
-                <td>Este script desactiva muchos servicios de windows. (Windows Error Reporting, OneDrive sync Service, Program Compatibility Assistant, Messaging Services, Retail Demo, Diagnostics Hub Data Collector, Geolocation Services, AllJoyn Router Services, Remote Registry, Data Usage Monitor Service, Diagnostics Tracking Service, Downloaded Maps Manager, junto con todos los relativos a Xbox)</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1tJfkVlTvAHnffznAhWC_Yvt48WRUgYEz/view?usp=share_link" target=”_blank”>ultimatePerformancePlan.ps1</a></td>
-                <td>Este script activa el plan de rendimiento oculto "ultimate". Puede mejorar mucho el rendimiento.</td>
-            </tr>
-            <tr>
-                <td><a href="https://drive.google.com/file/d/1-lAQOCH2UzSEKaVdN5Qw5jNCv1Pz4J8t/view?usp=share_link" target=”_blank”>disableVBS.ps1</a></td>
-                <td>Este script desactiva la seguridad basada en Virtualización, Credential Guard y HVCI.</td>
-            </tr>
-            <tbody>
-        </table>
-    </div>
-
-    </div>
-    <hr />
-    <div>
-        <table class="fl-table">
-            <thead>
-            <tr>
-                <th>|Páginas y Software a evitar|</th>
-                <th>|Razón|</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>IGG Games / PCGamesTorrents / LoadGames / GamesTorrents</td>
-                <td>Virus, Minería de Crypto, Anuncios.</td>
-            </tr>
-            <tr>
-                <td>SteamUnlocked / GOG Unlocked / ROMs Unlocked</td>
-                <td>Links Maliciosos y redireccionamientos/subidas robadas de IGG Games.</td>
-            </tr>
-            <tr>
-                <td>The Pirate Bay</td>
-                <td>Los dueños originales se fueron hace rato.</td>
-            </tr>
-            <tr>
-                <td>TLauncher</td>
-                <td>Tiene Spyware.</td>
-            </tr>
-            <tr>
-                <td>kLauncher</td>
-                <td>Tiene Malware.</td>
-            </tr>
-            <tr>
-                <td>Avast</td>
-                <td>Recolecta y vende datos de usuarios, además de ser un quilombo desinstalarlo.</td>
-            </tr>
-            <tr>
-                <td>CCleaner</td>
-                <td>Es de Avast.</td>
-            </tr>
-            <tr>
-                <td>BitTorrent/uTorrent</td>
-                <td>Tiene anuncios, trackers, e incluso mineros de bitcoin.</td>
-            </tr>
-            </thead>
-        </table>
+            <div class="table-wrapper" id="scriptsTable">
+                <head>Saqué los scripts de acá:  <a href="https://github.com/r33int/Windows10-Postinstall" target=”_blank”>Github de r33int</head> </a>
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>Scripts</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/12-XvDlyRbDmNFVfyXeAehOFHE9oMwUb6/view?usp=share_link" target=”_blank”>contentDeliveryManager.ps1</a> </td>
+                        <td>Este script prevee que windows instale aplicaciones no deseadas (EJ: Tiktok o Candy Crush).</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1WILyiBC0KYssO3690bdA_y4y-Id2CBeP/view?usp=share_link" target=”_blank”>fsutil.ps1</a> </td>
+                        <td>Este script aplica varias mejoras para el sistema de archivos NTFS usando el comando fsutil.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1vbtKUpQgGk4LGPyb2cnrQnLf4RgdwZ7w/view?usp=share_link" target=”_blank”>registryTweaks.ps1</a></td>
+                        <td>Este script contiene varias mejoras que se aplican al registro de Windows.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1pnir-dFM_mF7Imj48I751VUZM_lLtbe4/view?usp=share_link" target=”_blank”>removeApps.ps1</a></td>
+                        <td>Este script desinstala aplicaciones UWP "inútiles" en el usuario actual, para hacer el sistema tan mínimo como sea posible.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1xZYnJbYG3jfeSUKJZybOPQfI-n6JI8T6/view?usp=share_link" target=”_blank”>removeOneDrive.ps1</a></td>
+                        <td>Este script completamente remueve OneDrive. POR FIN</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1SsOb5TnrhA7mLwdRbMkP1sZa_5h7vs2T/view?usp=share_link" target=”_blank”>scheduledTasks.ps1</a></td>
+                        <td>Este script desactiva un par de tareas usadas para telemetría y recolección de datos, osea, mejora la privacidad.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/10TAd0K6K_mwdL-IDh5rK_CppQGmBnl_x/view?usp=share_link" target=”_blank”>services.ps1</a></td>
+                        <td>Este script desactiva muchos servicios de windows. (Windows Error Reporting, OneDrive sync Service, Program Compatibility Assistant, Messaging Services, Retail Demo, Diagnostics Hub Data Collector, Geolocation Services, AllJoyn Router Services, Remote Registry, Data Usage Monitor Service, Diagnostics Tracking Service, Downloaded Maps Manager, junto con todos los relativos a Xbox)</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1tJfkVlTvAHnffznAhWC_Yvt48WRUgYEz/view?usp=share_link" target=”_blank”>ultimatePerformancePlan.ps1</a></td>
+                        <td>Este script activa el plan de rendimiento oculto "ultimate". Puede mejorar mucho el rendimiento.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://drive.google.com/file/d/1-lAQOCH2UzSEKaVdN5Qw5jNCv1Pz4J8t/view?usp=share_link" target=”_blank”>disableVBS.ps1</a></td>
+                        <td>Este script desactiva la seguridad basada en Virtualización, Credential Guard y HVCI.</td>
+                    </tr>
+                    <tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             showTable();
+            addTableAnimations();
         });
 
         function showTable() {
             var category = document.getElementById("category").value;
-
-            // Hide all tables
-            document.querySelectorAll('.table-wrapper').forEach(function (table) {
+            var tables = document.querySelectorAll('.table-wrapper');
+            
+            tables.forEach(function(table) {
                 table.classList.add('hidden');
+                table.classList.remove('visible');
             });
 
-            // Show the selected table
-            document.getElementById(category + "Table").classList.remove('hidden');
+            var selectedTable = document.getElementById(category + "Table");
+            selectedTable.classList.remove('hidden');
+            setTimeout(() => {
+                selectedTable.classList.add('visible');
+            }, 50);
+        }
+
+        function addTableAnimations() {
+            document.querySelectorAll('.table-wrapper').forEach(function(table) {
+                table.classList.add('animate-on-scroll');
+            });
         }
     </script>
 </body>

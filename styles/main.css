@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --background-color: #f5f6fa;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: var(--background-color);
+}
+  .content-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 1rem;
+  }
+
+  .table-wrapper {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+    display: none;
+  }
+
+  .table-wrapper.visible {
+    display: block; 
+  }
+
+  .fl-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+  }
+
+  .site-header {
+    margin-bottom: 1rem;
+  }
+
+  .site-footer {
+    margin-top: 2rem;
+}
+.fl-table th {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  width: 100%;
+}
+
+.fl-table td {
+  padding: 12px;
+  vertical-align: middle;
+}
+
+td {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px !important;
+}
+
+td a {
+  display: inline-block;
+  margin: 4px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+td a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+@media screen and (max-width: 768px) {
+  .fl-table td {
+      padding: 8px;
+  }
+    
+  .fl-table td a {
+      margin: 2px 4px;
+      padding: 4px 8px;
+  }
+}
+
+.fl-table tr:hover {
+background-color: #f8f9fa;
+}
+
+.table-wrapper:empty::after {
+content: "Selecciona una categoría";
+display: block;
+text-align: center;
+padding: 2rem;
+color: #6c757d;
+}
+select#category {
+padding: 0.5rem;
+border-radius: 4px;
+border: 1px solid #ddd;
+margin: 1rem 0;
+}
+
+a {
+color: var(--secondary-color);
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+.strike {
+    text-decoration: line-through;
+}
