@@ -71,7 +71,7 @@ complete_html = '''<!DOCTYPE html>
 <body>
     <nav class="top-nav">
         <div class="logo">
-            <a href="./index.html"><i class="fas fa-desktop"></i> WPI</a>
+            <a href="index.html"><i class="fas fa-desktop"></i> WPI</a>
         </div>
         <div class="nav-controls">
             <label for="category">Choose Category:</label>
