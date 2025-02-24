@@ -7,87 +7,4137 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <base href="/">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: blob: 'unsafe-inline'">
 </head>
 <body>
     <nav class="top-nav">
         <div class="logo">
-            <a href="index.html"><i class="fas fa-desktop"></i> WPI</a>
+            <a href="./index.html"><i class="fas fa-desktop"></i> WPI</a>
+        </div>
+        <div class="nav-controls">
+            <label for="category">Choose Category:</label>
+            <select id="category" onchange="showTable()">
+                <option value="⛵__not_so_fast_sailor_do_this_first">⛵ ➜ Not so fast sailor! Do this first</option>
+                <option value="🧭_all_purpose">🧭 All Purpose</option>
+                <option value="⭐_anime">⭐ Anime</option>
+                <option value="📚_books">📚 Books</option>
+                <option value="🕹️_emulators">🕹️ Emulators</option>
+                <option value="🎮_games">🎮 Games</option>
+                <option value="📱_mobile">📱 Mobile</option>
+                <option value="🎦_movies_&_tv">🎦 Movies & TV</option>
+                <option value="🎹_music">🎹 Music</option>
+                <option value="⚙️_software">⚙️ Software</option>
+                <option value="🧰_tools">🧰 Tools</option>
+
+            </select>
         </div>
     </nav>
-
     <header class="site-header">
         <h1>Piracy Megathread</h1>
         <p class="subtitle">Live data from r/Piracy megathread</p>
     </header>
 
     <div class="content-container">
-        <div id="megathread-content" class="table-sections">
-            <!-- Content will be loaded here -->
-            <div class="loading">Loading megathread data...</div>
+        <div class="table-sections">
+
+            <div class="table-wrapper" id="⛵__not_so_fast_sailor_do_this_firstTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>⛵ ➜ Not so fast sailor! Do this first</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/IridiumIO/CompactGUI" target="_blank">CompactGUI</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.keka.io/" target="_blank">Keka</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/M2Team/NanaZip" target="_blank">NanaZip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://peazip.github.io/" target="_blank">PeaZip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.win-rar.com/" target="_blank">WinRar</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.win-rar.com/" target="_blank">WinRAR</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.zipware.org/" target="_blank">Zipware</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://autobrr.com/" target="_blank">autobrr</a> <a href="https://github.com/autobrr/autobrr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.bazarr.media/" target="_blank">Bazarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://radarr.video/" target="_blank">Radarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sonarr.tv/" target="_blank">Sonarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://emby.media/" target="_blank">Emby</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://schizoduckie.github.io/DuckieTV/" target="_blank">DuckieTV</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://flexget.com/" target="_blank">FlexGet</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://jellyfin.org/" target="_blank">Jellyfin</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Jackett/Jackett" target="_blank">Jackett</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/kanishka-linux/kawaii-player" target="_blank">Kawaii-Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kodi.tv/" target="_blank">Kodi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lidarr.audio/" target="_blank">Lidarr</a> <a href="https://github.com/Lidarr/Lidarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pymedusa.com/" target="_blank">Medusa</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lardbit.github.io/nefarious/" target="_blank">nefarious</a> <a href="https://github.com/lardbit/nefarious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Jackett/Jackett" target="_blank">Jackett</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://transmissionbt.com/" target="_blank">Transmission</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://osmc.tv/" target="_blank">OSMC</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.plex.tv/" target="_blank">Plex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://powder.media/" target="_blank">Powder Tech</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://prowlarr.com/" target="_blank">Prowlarr</a> <a href="https://github.com/Prowlarr/Prowlarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://radarr.video/" target="_blank">Radarr</a> <a href="https://github.com/Radarr/Radarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sickchill.github.io/" target="_blank">SickChill</a> <a href="https://github.com/SickChill/SickChill" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SickGear/SickGear" target="_blank">SickGear</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sonarr.tv/" target="_blank">Sonarr</a> <a href="https://github.com/Sonarr/Sonarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.stremio.com/" target="_blank">Stremio</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.universalmediaserver.com/" target="_blank">Universal Media Server</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://unpackerr.zip/" target="_blank">Unpackerr</a> <a href="https://github.com/Unpackerr/unpackerr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aria2.github.io/" target="_blank">aria2</a> <a href="https://github.com/aria2/aria2" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.downthemall.org/" target="_blank">DownThemAll!</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freedownloadmanager.org/" target="_blank">Free Download Manager</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filecxx.com/" target="_blank">File Centipede</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gopeed.com/" target="_blank">Gopeed</a> <a href="https://github.com/GopeedLab/gopeed" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://erickutcher.github.io/" target="_blank">HTTP Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://jdownloader.org/" target="_blank">JDownloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.motrix.app/" target="_blank">Motrix</a> <a href="https://github.com/agalwood/Motrix" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://persepolisdm.github.io/" target="_blank">Persepolis</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aria2.github.io/" target="_blank">aria2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pyload.net/" target="_blank">pyLoad</a> <a href="https://github.com/pyload/pyload" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webextension.org/listing/turbo-download-manager-v2.html" target="_blank">Turbo Download Manager</a> <a href="https://github.com/inbasic/turbo-download-manager-v2/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xtremedownloadmanager.com/" target="_blank">Xtreme Downloader Manager</a> <a href="https://github.com/subhra74/xdm" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://1fichier.com/" target="_blank">1fichier</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://buzzheavier.com/" target="_blank">Buzzheavier</a> <a href="https://trashbytes.net/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://catbox.moe/" target="_blank">Catbox</a> <a href="https://litterbox.catbox.moe/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dailyuploads.net/" target="_blank">Daily Uploads</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://easyupload.io/" target="_blank">Easyupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fastupload.io/" target="_blank">Fastupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filehaus.su/" target="_blank">file.haus</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.file.io/" target="_blank">file.io</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fileditch.com/" target="_blank">Fileditch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freedl.ink/" target="_blank">FreeDlink</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fuckingfast.co/" target="_blank">Fuckingfast</a> <a href="https://hidan.sh/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gofile.io/" target="_blank">Gofile</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hidan.sh/" target="_blank">Hidan</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hexload.com/" target="_blank">Hexupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://krakenfiles.com/" target="_blank">KrakenFiles</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mediafire.com/" target="_blank">MediaFire</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mega.io/" target="_blank">Mega</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://megaup.net/" target="_blank">MegaUp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mixdrop.ag/" target="_blank">MixDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://oshi.at/" target="_blank">Oshi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pillowcase.su/" target="_blank">Pillowcase</a> <a href="https://plwcse.top/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pixeldrain.com/" target="_blank">Pixeldrain</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://qiwi.gg/" target="_blank">Qiwi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ranoz.gg/" target="_blank">Ranoz</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.cm/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.vis.ee/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.vis.ee/" target="_blank">Send</a> <a href="https://gitlab.com/timvisee/send-instances" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.cm/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.up-4ever.net/" target="_blank">Up-4ver</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uploadnow.io/" target="_blank">UploadNow</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uploadraja.com/" target="_blank">UploadRaja</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vikingfile.com/" target="_blank">ViKiNG FiLE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mirrorace.com/" target="_blank">MirrorAce</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.mirrored.to/" target="_blank">Mirrored</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://multiup.io/" target="_blank">MultiUp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://blaze.vercel.app/" target="_blank">Blaze</a> <a href="https://github.com/blenderskool/blaze" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://blymp.io/" target="_blank">blymp.io</a> <a href="https://github.com/vantezzen/blymp-io" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://drop.lol" target="_blank">drop.lol</a> <a href="https://github.com/mat-sz/filedrop" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://echoduck.com/" target="_blank">EchoDuck</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://file.love/" target="_blank">FileLove</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://file.pizza/" target="_blank">FilePizza</a> <a href="https://github.com/kern/filepizza" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.hrzn.cool/" target="_blank">Horizon Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.jumbomail.me/" target="_blank">JUMBOmail</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://justbeamit.com/" target="_blank">JustBeamIt</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filetransfer.kpn.com/" target="_blank">KPN Secure File Transfer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://landrop.app/" target="_blank">LANDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lightning-share.vercel.app/" target="_blank">LIGHTNING SHARE</a> <a href="https://github.com/chroline/lightning-share" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://localsend.org/" target="_blank">LocalSend</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://new.space/" target="_blank">new.space</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://onionshare.org/" target="_blank">OnionShare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.plustransfer.com/" target="_blank">PlusTransfer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://posilej.cz/" target="_blank">Posílej</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rdrop.link/" target="_blank">rDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://saladroom.net/" target="_blank">Salad Room</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendfa.st/" target="_blank">SendFast</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendfilesencrypted.com/" target="_blank">Sendfilesencrypted</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.sharrr.com/" target="_blank">Sharrr</a> <a href="https://github.com/stophecom/sharrr-svelte" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spacedrop.app/" target="_blank">SpaceDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sprend.com/" target="_blank">Sprend</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getsurge.io/" target="_blank">Surge</a> <a href="https://github.com/rule110-io/surge" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://toffeeshare.com/" target="_blank">ToffeeShare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.transfernow.net/" target="_blank">TransferNow</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webdrop.space/" target="_blank">WebDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webwormhole.io/" target="_blank">WebWormhole</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wormhole.app/" target="_blank">Wormhole</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.aimp.ru/" target="_blank">AIMP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.elmedia-video-player.com/" target="_blank">Elmedia Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.foobar2000.org/" target="_blank">foobar2000</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://iina.io/" target="_blank">IINA</a> <a href="https://github.com/iina/iina" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.kmplayer.com/" target="_blank">KMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/clsid2/mpc-hc" target="_blank">Media Player Classic - Home Cinema (MPC-HC)</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mpv.io/" target="_blank">mpv</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getmusicbee.com/" target="_blank">MusicBee</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://potplayer.daum.net/" target="_blank">Potplayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.smplayer.info/" target="_blank">SMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.videolan.org/" target="_blank">VLC Media Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.un4seen.com/" target="_blank">XMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bitport.io/" target="_blank">Bitport</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.seedr.cc/" target="_blank">Seedr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torbox.app/" target="_blank">TorBox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentsafe.com/" target="_blank">Torrent Safe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webtor.io/" target="_blank">Webtor</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.biglybt.com/" target="_blank">BiglyBT</a> <a href="https://github.com/BiglySoftware/BiglyBT" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.deluge-torrent.org/" target="_blank">Deluge</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/picotorrent/picotorrent" target="_blank">PicoTorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.pikatorrent.com/" target="_blank">PikaTorrent</a> <a href="https://github.com/G-Ray/pikatorrent" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a> <a href="https://github.com/qbittorrent/qBittorrent" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tixati.com/" target="_blank">Tixati</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://transmissionbt.com/" target="_blank">Transmission</a> <a href="https://github.com/transmission/transmission" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wiztorrent.com/" target="_blank">WizTorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://abyss.to/" target="_blank">Abyss</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://doodstream.com/" target="_blank">DoodStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filemoon.sx/" target="_blank">FileMoon</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://media.cm/" target="_blank">Media</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://powvideo.net/" target="_blank">Powvideo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendvid.com/" target="_blank">Sendvid</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://streamable.com/" target="_blank">Streamable</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://streamtape.com/" target="_blank">Streamtape</a> <a href="https://streamtape.to/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://upstream.to/" target="_blank">UpStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://videy.co/" target="_blank">Videy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vidoza.net/" target="_blank">Vidoza</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.vidyard.com/" target="_blank">Vidyard</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://voe.sx/" target="_blank">VOE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vudeo.ws/" target="_blank">Vudeo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webmshare.com/" target="_blank">webmshare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO" target="_blank">KMS_VL_ALL_AIO</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://massgrave.dev/" target="_blank">Microsoft Activation Scripts (MAS)</a> <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://files.rg-adguard.net/" target="_blank">rg-adguard</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tube.cadence.moe/" target="_blank">CloudTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freetubeapp.io/" target="_blank">FreeTube</a> <a href="https://github.com/FreeTubeApp/FreeTube" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://invidious.io/" target="_blank">Invidious</a> <a href="https://github.com/iv-org/invidious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yt.d0.cx/" target="_blank">LiteTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://materialio.us/" target="_blank">Materialious</a> <a href="https://github.com/Materialious/Materialious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://invidious.io/" target="_blank">Invidious</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://piped.video/" target="_blank">Piped</a> <a href="https://piped.kavin.rocks/" target="_blank">Mirror 2</a> <a href="https://github.com/TeamPiped/Piped" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://poketube.fun/" target="_blank">Poke</a> <a href="https://github.com/ashley0143/poke" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.yout-ube.com/" target="_blank">yout-ube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/KhubaibKhan4/Youtube-Clone-KMP" target="_blank">YouTube Clone KMP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/user234683/youtube-local" target="_blank">youtube-local</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🧭_all_purposeTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🧭 All Purpose</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://forum.dirtywarez.com/" target="_blank">DirtyWarez</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filepursuit.com/" target="_blank">File Pursuit</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://archive.org/" target="_blank">Internet Archive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://scnlog.me/" target="_blank">Scnlog</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://softarchive.is/" target="_blank">SoftArchive</a> <a href="https://sastatus.com/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.warezbook.org/" target="_blank">WarezBook</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://warezforums.com/" target="_blank">WarezForums</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://1337x.to/" target="_blank">1337x</a> <a href="https://1337x-status.org/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://abctorrents.xyz/" target="_blank">ABCTorrents</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bitsearch.to/" target="_blank">Bitsearch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bt4gprx.com/" target="_blank">BT4G</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://btdig.com/" target="_blank">BTDigg</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://btmet.com/" target="_blank">BTMET</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cloudtorrents.com/" target="_blank">CloudTorrents</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ext.to/" target="_blank">EXT Torrents</a> <a href="https://search.extto.com/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filemood.com/" target="_blank">FileMood</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://idope.se/" target="_blank">iDope</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://knaben.eu/" target="_blank">Knaben Database</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.limetorrents.lol/" target="_blank">LimeTorrents</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.magnetdl.com/" target="_blank">MagnetDL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nnmclub.to/" target="_blank">NNM-Club</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rustorka.com/forum/index.php" target="_blank">Rustorka</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rutor.info/" target="_blank">RUTOR</a> <a href="https://rutor.is/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rutracker.org/forum/index.php" target="_blank">RuTracker</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://developify.ca/" target="_blank">The Torrent Database</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentdownloads.pro/" target="_blank">Torrent Downloads</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentdownload.info/" target="_blank">TorrentDownload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torrentquest.com/" target="_blank">TorrentQuest</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torrentgalaxy.to/" target="_blank">TorrentGalaxy</a> <a href="https://proxygalaxy.me/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentleech.org/" target="_blank">TorrentLeech</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://0day.cx/" target="_blank">0day</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://predb.net/" target="_blank">PreDB</a> <a href="https://predb.me/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hdvinnie.github.io/Private-Trackers-Spreadsheet/" target="_blank">Private Trackers Spreadsheet</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://scene-rls.net/releases/index.php" target="_blank">Scene-RLS RELEASES</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.xrel.to/" target="_blank">xREL</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="⭐_animeTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>⭐ Anime</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anidb.net/" target="_blank">AniDB</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anilist.co/" target="_blank">AniList</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kitsu.io/" target="_blank">KITSU</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kurozora.app/" target="_blank">Kurozora</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://myanimelist.net/" target="_blank">MyAnimeList</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/akuse-app/akuse" target="_blank">akuse</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/kodjodevf/mangayomi" target="_blank">Mangayomi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://miru.watch/" target="_blank">Miru</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://seanime.rahim.app/" target="_blank">Seanime</a> <a href="https://github.com/5rahim/seanime" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animetosho.org/" target="_blank">Anime Tosho</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.animeout.xyz/" target="_blank">AnimeOut</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://chauthanh.info/" target="_blank">ChauThanh</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://flugelanime.com/" target="_blank">Flugel Anime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hi10anime.com/" target="_blank">Hi10 Anime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kayoanime.com/" target="_blank">Kayoanime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.noobsubs.com/" target="_blank">NoobSubs</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.tokyoinsider.com/" target="_blank">Tokyo Insider</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://123anime.info/" target="_blank">123anime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://1anime.co/" target="_blank">1Anime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://4anime.gg/" target="_blank">4anime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://all-wish.me/" target="_blank">Allwish</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anicrush.to/" target="_blank">Anicrush</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anidey.fun/" target="_blank">Anidey</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anikoto.to/" target="_blank">Anikoto</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.animerealms.org/" target="_blank">Anime Realms</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anime-stream.io/" target="_blank">Anime-Stream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animefrenzy.cc/" target="_blank">AnimeFrenzy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animehub.ac/" target="_blank">AnimeHub</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animenana.com/" target="_blank">AnimeNana</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animenosub.to/" target="_blank">AnimeNoSub</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animension.to/" target="_blank">Animension</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animeowl.live/" target="_blank">AnimeOwl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animepahe.ru/" target="_blank">AnimePahe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.animeparadise.moe/" target="_blank">AnimeParadise</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animeuwutv.com/" target="_blank">AnimeUwU TV</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animexin.vip/" target="_blank">AnimeXin</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anitaku.pe/" target="_blank">Anitaku</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anizone.to/" target="_blank">AniZone</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gojo.wtf/" target="_blank">Gojo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hianime.to/" target="_blank">HiAnime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://holymix.netlify.app/" target="_blank">HolyMix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kaido.to/" target="_blank">Kaido</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kickassanime.am/" target="_blank">KickAssAnime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kuroiru.co/" target="_blank">Kuroiru</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.miruro.tv/" target="_blank">Miruro</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://myanime.live/" target="_blank">Myanime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wcofun.org/" target="_blank">WcoFun</a> <a href="https://www.wco.tv/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yukiwatch.su/" target="_blank">YukiWatch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://beatrice-raws.org/" target="_blank">Beatrice-Raws</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.erai-raws.info/" target="_blank">Erai-raws</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nyaa.si/" target="_blank">Nyaa</a> <a href="https://nyaa.land/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://share.acgnx.se/" target="_blank">Project AcgnX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.shanaproject.com/" target="_blank">Shana Project</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://subsplease.org/" target="_blank">SubsPlease</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.tokyotosho.info/?cat=1" target="_blank">Tokyo Toshokan</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="📚_booksTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>📚 Books</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://novelbuddy.com" target="_blank">NovelBuddy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.gutenberg.org/" target="_blank">Project Gutenberg</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://readcomiconline.li/" target="_blank">ReadComicOnline</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://annas-archive.li/" target="_blank">Anna's Archive</a> <a href="https://annas-archive.org/" target="_blank">Mirror 2</a> <a href="https://annas-archive.se/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://coursesbag.com/" target="_blank">Courses Bag</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://downloadfreecourse.com/" target="_blank">DownloadFreeCourse</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://downmagaz.net/" target="_blank">DownMagaz</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ebook-hunter.org/" target="_blank">ebook-hunter</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://forcoder.net/" target="_blank">ForCoder</a> <a href="https://coderprog.com/" target="_blank">Mirror 2</a> <a href="https://scanlibs.com/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freemagazines.top/" target="_blank">Free Magazines</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freecoursesite.com/" target="_blank">FreeCourseSite</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freeeducationweb.com/" target="_blank">FreeEducationWeb</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getcomics.org/" target="_blank">GetComics</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://liber3.eth.limo/" target="_blank">Liber3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://libgen.is/" target="_blank">Library Genesis</a> <a href="https://libgen.st/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://musopen.org/" target="_blank">Musopen</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://oceanofpdf.com/" target="_blank">OceanofPDF</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://online-courses.club/" target="_blank">Online Courses</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pdfroom.com/" target="_blank">PDF Room</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pdfstop.com/" target="_blank">PDF Stop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pdfdrive.to/" target="_blank">PDFDrive</a> <a href="https://www.pdfdrive.com/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pdfmagazines.club/" target="_blank">PDFMagazines Club</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sci-hub.se/" target="_blank">Sci-Hub</a> <a href="https://sci-hub.st/" target="_blank">Mirror 2</a> <a href="https://sci-hub.ru/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tutsnode.net/" target="_blank">TutsNode</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.reddit.com/r/zlibrary/wiki/index/access/#wiki_how_to_access_zlibrary_through_your_browser" target="_blank">Z-Library</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://18kami.com/" target="_blank">18Kami</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bato.to/" target="_blank">BATO</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://comick.io/" target="_blank">ComicK</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fanfox.net/" target="_blank">Manga Fox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangathingy.netlify.app/" target="_blank">Manga Thingy</a> <a href="https://mangathingy.vercel.app/" target="_blank">Mirror 2</a> <a href="https://github.com/real-zephex/Manga-Thingy" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://manga4life.com/" target="_blank">MangaLife</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangabuddy.com/" target="_blank">MangaBuddy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangadex.org/" target="_blank">MangaDex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangafire.to/" target="_blank">MangaFire</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://w15.mangafreak.net/" target="_blank">MangaFreak</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangahub.io/" target="_blank">MangaHub</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangakakalot.com/" target="_blank">MangaKakalot</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangakatana.com/" target="_blank">MangaKatana</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangakomi.io/" target="_blank">MangaKomi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangapark.io/" target="_blank">MangaPark</a> <a href="https://mangapark.net/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangapill.com/" target="_blank">MangaPill</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.mangaread.org/" target="_blank">Mangaread</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://toonily.com/" target="_blank">Toonily</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Xonshiz/comic-dl" target="_blank">Comic-DL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Girbons/comics-downloader" target="_blank">Comics Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hakuneko.download/" target="_blank">HakuNeko</a> <a href="https://github.com/manga-download/hakuneko" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mangabot.github.io/" target="_blank">Manga Bot</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ravebooksearch.com/" target="_blank">Rave Book Search</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://recherche-ebook.fr/" target="_blank">Recherche Ebook</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://appaudiobooks.com/" target="_blank">AppAudioBooks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audioaz.com/" target="_blank">AudioAZ</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audiobooklabs.com/" target="_blank">AudioBookLabs</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audiobooks4soul.com/home/" target="_blank">Audiobooks For Soul</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bookaudiobooks.com/" target="_blank">Book Audiobooks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bigaudiobooks.com/" target="_blank">Big AudioBooks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.digitalbook.io/" target="_blank">Digitalbook</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freeclassicaudiobooks.com/" target="_blank">Free Classic AudioBooks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://goldenaudiobook.com/" target="_blank">GoldenAudiobook</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hdaudiobooks.com/" target="_blank">HD Audio Books</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hotaudiobooks.com/" target="_blank">Hot Audiobooks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.storynory.com/" target="_blank">Storynory</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tokybook.com/" target="_blank">Tokybook</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://academictorrents.com/" target="_blank">Academic Torrents</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audiobookbay.is/" target="_blank">AudioBook Bay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.myanonamouse.net/" target="_blank">MyAnonamouse</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.myanonamouse.net/inviteapp.php" target="_blank">look at this page</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🕹️_emulatorsTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🕹️ Emulators</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://emulation.gametechwiki.com/index.php/Main_Page" target="_blank">Emulation General Wiki</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.emulator-zone.com/" target="_blank">The Emulator Zone</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://playclassic.games/" target="_blank">Classic games online</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://classicreload.com/" target="_blank">ClassicReload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dosdeck.com/" target="_blank">DOS_deck</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.free80sarcade.com/" target="_blank">Free 80s Arcade</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gba.js.org/" target="_blank">GBA Online</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.retrogames.onl/" target="_blank">Play Retro Games Online</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.retrogames.cz/" target="_blank">RetroGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://retrogamesonline.io/" target="_blank">Retro Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://megadrive-emulator.com/" target="_blank">SEGA Online Emulator</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.ssega.com/" target="_blank">SSega</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.webrcade.com/" target="_blank">webЯcade</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ares-emu.net/" target="_blank">ares</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://es-de.org/" target="_blank">ES-DE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.mamedev.org/" target="_blank">MAME</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mednafen.github.io/" target="_blank">Mednafen</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://openemu.org/" target="_blank">OpenEmu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.retroarch.com/" target="_blank">RetroArch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://retrodeck.net/" target="_blank">RetroDECK</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.zophar.net/" target="_blank">Zophar's Domain</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xemu.app/" target="_blank">xemu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xenia.jp/" target="_blank">xenia</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cemu.info/" target="_blank">Cemu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dolphin-emu.org/" target="_blank">Dolphin</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fceux.com/web/home.html" target="_blank">FCEUX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://melonds.kuribo64.net/" target="_blank">melonDS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SourMesen/Mesen2" target="_blank">Mesen2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mgba.io/" target="_blank">mGBA</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/punesemu/puNES" target="_blank">puNES</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.pj64-emu.com/" target="_blank">Project64</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Rosalie241/RMG/" target="_blank">Rosalie's Mupen GUI</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sameboy.github.io/" target="_blank">SameBoy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://simple64.github.io/" target="_blank">simple64</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.snes9x.com/" target="_blank">Snes9X</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sudachi.emuplace.app/" target="_blank">Sudachi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://suyu.dev/" target="_blank">Suyu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://a.imagem.app/3GsHS1.webp" target="_blank">Note</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torzu.dev/" target="_blank">Torzu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/flyinghead/flycast" target="_blank">Flycast</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.carpeludum.com/kega-fusion/" target="_blank">Kega Fusion</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://redream.io/" target="_blank">redream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.duckstation.org/" target="_blank">DuckStation</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.epsxe.com/" target="_blank">ePSXe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pcsx2.net/" target="_blank">PCSX2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.ppsspp.org/" target="_blank">PPSSPP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rpcs3.net/" target="_blank">RPCS3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vita3k.org/" target="_blank">Vita3K</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.emudeck.com/" target="_blank">EmuDeck</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.reddit.com/r/SteamDeckPirates/" target="_blank">SteamDeckPirates</a> <a href="https://rentry.org/steamdeckpirates" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://archive.org/details/best-nes-games" target="_blank">Best NES Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cdromance.com/" target="_blank">CDRomance</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.consoleroms.com/" target="_blank">ConsoleRoms</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://archive.org/details/cylums-sega-master-system-rom-collection" target="_blank">Cylum's Sega Master System ROM Collection</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://edgeemu.net/" target="_blank">edge|emulation</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.emu-land.net/" target="_blank">Emu-Land</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.emugames.net/" target="_blank">Emu Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.gameginie.com/" target="_blank">GameGinie</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.lategames.net/" target="_blank">Lategames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://myrient.erista.me/" target="_blank">Myrient</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nswrom.com/" target="_blank">NswRom</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nsw2u.com/" target="_blank">nsw2u</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nxbrew.net/" target="_blank">NXBrew</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://r-roms.github.io/" target="_blank">r/Roms Megathread</a> <a href="https://r-roms.gitlab.io/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://archive.org/details/retro-roms-best-set" target="_blank">Retro Roms "Best" Set</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.retrostic.com/" target="_blank">Retrostic</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romhustler.org/" target="_blank">Rom Hustler</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.romhacking.net/" target="_blank">ROMhacking</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romheaven.com/" target="_blank">Romheaven</a> <a href="https://romheaven.su/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romsever.com/" target="_blank">Romsever</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romsim.com/" target="_blank">ROMSIM</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romslab.com/" target="_blank">Romslab</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.romspedia.com/" target="_blank">Romspedia</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://romspure.cc/" target="_blank">ROMSPURE.CC</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.romulation.org/" target="_blank">RomUlation</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://taodung.com/" target="_blank">TAODUNG</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://techtoroms.com/" target="_blank">TechToRoms</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vimm.net/" target="_blank">Vimm's Lair</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://a.imagem.app/36c6AG.png" target="_blank">Note</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wowroms.com/" target="_blank">Wowroms</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.ziperto.com/" target="_blank">Ziperto</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.blueroms.ws/" target="_blank">BlueRoms</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🎮_gamesTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🎮 Games</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.addictinggames.com/" target="_blank">Addicting Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.arkadium.com/" target="_blank">Arkadium Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.coolmathgames.com/" target="_blank">Cool Math Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.crazygames.com/" target="_blank">CrazyGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freegamesmax.com/" target="_blank">Free Games Max</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamesfrog.com/" target="_blank">GamesFrog</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://iogames.space/" target="_blank">io Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://poki.com/" target="_blank">Poki</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cs.rin.ru/forum/" target="_blank">CS.RIN.RU: Steam Underground</a> <a href="https://cs.rin.ru/forum/viewtopic.php?f=10&t=95461" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://abandonwaregames.net/" target="_blank">Abandonware Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ankergames.net/" target="_blank">AnkerGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://atopgames.com/" target="_blank">AtopGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.cg-gamespc.com/" target="_blank">CG-gamesPC</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://digital-zone.xyz/" target="_blank">Digital Zone</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://elamigos.site/" target="_blank">ElAmigos</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamebounty.world/" target="_blank">Game Bounty</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://g4u.to/" target="_blank">games 4 u</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://games4u.org/" target="_blank">Games4U</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamdie.com/" target="_blank">Gamedie</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamedrive.org/" target="_blank">GameDrive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dodi-repacks.site/" target="_blank">DODI</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://elamigos.site/" target="_blank">ElAmigos</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fitgirl-repacks.site/" target="_blank">FitGirl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamesdrive.net/" target="_blank">GamesDrive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamesdrive.net/" target="_blank">GamesDrive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dodi-repacks.site/" target="_blank">DODI</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fitgirl-repacks.site/" target="_blank">FitGirl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamedrive.org/" target="_blank">GameDrive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamepcfull.com/" target="_blank">GamePCFull</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamespack.net/" target="_blank">GAMESPACK</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamezdl.cc/" target="_blank">gamezdl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getfreegames.net/" target="_blank">Get Free Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gload.to/" target="_blank">GLOAD</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rentry.org/gnarly_repacks" target="_blank">Gnarly Repacks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gog-games.to/" target="_blank">GOG Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://m4ckd0ge-repacks.site/" target="_blank">M4CKD0GE Repacks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.magipack.games/" target="_blank">MagiPack Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.myabandonware.com/" target="_blank">My Abandonware</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://oldgamesdownload.com/" target="_blank">Old Games Download</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.old-games.ru/" target="_blank">Old-Games.RU</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.ovagames.com/" target="_blank">Ova Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://elamigos.site/" target="_blank">ElAmigos</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pivigames.blog/" target="_blank">PiviGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://elamigos.site/" target="_blank">ElAmigos</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://reloadedsteam.com/" target="_blank">Reloaded Steam</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://repack-games.com/" target="_blank">Repack-Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://repacklab.com/" target="_blank">Repacklab</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rexagames.com/" target="_blank">Rexa Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://steam-cracked.com/" target="_blank">Steam-Cracked</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://steamgg.net/" target="_blank">SteamGG</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://a.imagem.app/3wk7Ob.png" target="_blank">Note</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://steamrip.com/" target="_blank">STEAMRIP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://steamunderground.net/" target="_blank">SteamUnderground</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://collectionchamber.blogspot.com/" target="_blank">The Collection Chamber</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torrminatorr.com/" target="_blank">Torrminatorr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://undergroundgames.net/" target="_blank">UnderGround Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://union-crax.xyz/" target="_blank">UnionCrax</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://win7games.com/" target="_blank">Windows 7 Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://worldofpcgames.com/" target="_blank">WorldofPCGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamevau.lt/" target="_blank">GameVault</a> <a href="https://github.com/Phalcode/gamevault-app" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.gog.com/galaxy" target="_blank">GOG GALAXY 2.0</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.launchbox-app.com/" target="_blank">LaunchBox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://playnite.link/" target="_blank">Playnite</a> <a href="https://github.com/JosefNemec/Playnite/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://y0urd34th.github.io/Project-GLD/" target="_blank">Project GLD</a> <a href="https://github.com/Y0URD34TH/Project-GLD" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cse.google.com/cse?cx=20c2a3e5f702049aa" target="_blank">Programmable Search Engine</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rezi.one/" target="_blank">Rezi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ravegamesearch.pages.dev/" target="_blank">Rave Game Search</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://appnetica.com/" target="_blank">Appnetica</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://byxatab.com/" target="_blank">ByXatab</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dodi-repacks.site/" target="_blank">DODI Repacks</a> <a href="https://dodi-repacks.download/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fitgirl-repacks.site/" target="_blank">FitGirl Repacks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freegogpcgames.com/" target="_blank">Free GOG PC Games</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kaoskrew.org/" target="_blank">KaOsKrew</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torrent-games.games/" target="_blank">Torrent Games</a> <a href="https://torrent-games.net" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rentry.co/ISARMGDDNSafe" target="_blank">ARMGDDN Browser</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fearlessrevolution.com/" target="_blank">Fearless Cheat Engine</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://flingtrainer.com/" target="_blank">FLiNG Trainer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gamecopyworld.com/" target="_blank">GameCopyWorld</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://megagames.com/" target="_blank">MegaGames</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mrantifun.net/" target="_blank">MrAntiFun</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://online-fix.me/" target="_blank">Online-Fix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.wemod.com/" target="_blank">WeMod</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="📱_mobileTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>📱 Mobile</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Fmaldonado6/Akiyama" target="_blank">Akiyama</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anilab.to/" target="_blank">Anilab</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animechicken.app/" target="_blank">Anime Chicken</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aniyomi.org/" target="_blank">Aniyomi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kotatsu.app/" target="_blank">Kotatsu</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mihon.app/" target="_blank">Mihon</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://accrescent.app/" target="_blank">Accrescent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://acmarket.net/" target="_blank">ACMarket</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://appteka.store/" target="_blank">Appteka</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://auroraoss.com/" target="_blank">AuroraOSS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://f-droid.org/" target="_blank">F-Droid</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/nyas1/Material-You-app-list" target="_blank">Material You</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://onyxbits.de/" target="_blank">Onyxbits</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://an1.com/" target="_blank">AN1</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://androeed.store/" target="_blank">Androeed</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://androidrepublic.org/portal/" target="_blank">Android Republic</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkhome.io/" target="_blank">APK Home</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkdone.com/" target="_blank">APKdone</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkkit.com/" target="_blank">APKKIT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkmb.com/" target="_blank">APKMB</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkmody.com/" target="_blank">APKMODY</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkmodsapp.com/" target="_blank">ApkModsApp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkmos.com/" target="_blank">ApkMos</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkvision.org/" target="_blank">ApkVision</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dlandroid.com/" target="_blank">DlAndroid</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.farsroid.com/" target="_blank">farsroid</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ihackedit.com/" target="_blank">iHackedit</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://liteapks.com/" target="_blank">LITEAPKS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://forum.mobilism.org/index.php" target="_blank">Mobilism</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://modyolo.com/" target="_blank">MODYOLO</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pdalife.com/" target="_blank">PDALIFE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://platinmods.com/" target="_blank">Platinmods</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.rockmods.net/" target="_blank">RB Mods</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://forum.release-apk.com/index.php" target="_blank">ReleaseAPK</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.revdl.com/" target="_blank">Revdl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sbenny.com/" target="_blank">Sbenny</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audiorelay.net/" target="_blank">AudioRelay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://jhelumcorp.github.io/" target="_blank">Gyawun</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/anandnet/Harmony-Music" target="_blank">Harmony Music</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/z-huang/InnerTune" target="_blank">InnerTune</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/namidaco/namida" target="_blank">Namida</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/kawaiiDango/pano-scrobbler/" target="_blank">Pano Scrobbler</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fast4x.github.io/RiMusic/" target="_blank">RiMusic</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://simpmusic.tech/" target="_blank">SimpMusic</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://soundbound.app/" target="_blank">Soundbound</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/toasterofbread/spmp" target="_blank">SpMp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/BobbyESP/Spowlo" target="_blank">Spowlo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SuhasDissa/VibeYou" target="_blank">Vibe You</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.xmanagerapp.com/" target="_blank">xManager</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/deniscerri/ytdlnis" target="_blank">YTDLnis</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://playsearch.kaki87.net/" target="_blank">Advanced Google Play Search</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkmodsearch.pages.dev/" target="_blank">APK Mods Search</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.showappslike.com/" target="_blank">ShowAppsLike</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://qwertycube.com/apk-editor-studio/" target="_blank">APK Editor Studio</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://muntashirakon.github.io/AppManager/en/" target="_blank">App Manager</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.gboxlab.com/" target="_blank">Gbox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/DavidBerdik/Let-Me-Downgrade" target="_blank">Let Me Downgrade</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.luckypatchers.com/" target="_blank">Lucky Patcher</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://revanced.app/" target="_blank">ReVanced</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkamp.com/" target="_blank">APK Amp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.apkthing.com/" target="_blank">APK Thing</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkcombo.com/" target="_blank">APKCombo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkgit.co/" target="_blank">APKGIT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.apkmirror.com/" target="_blank">APKMirror</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.apkmonk.com/" target="_blank">apkmonk</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://apkpure.net/" target="_blank">APKPure</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.apktoy.com/" target="_blank">APKToy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.apksum.com/" target="_blank">APKSum</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.uptodown.com/windows" target="_blank">Uptodown</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/lamarios/clipious" target="_blank">Clipious</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://grayjay.app/" target="_blank">Grayjay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/zt64/Hyperion" target="_blank">Hyperion</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://libretube.dev/" target="_blank">LibreTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://newpipe.net/" target="_blank">NewPipe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/JunkFood02/Seal" target="_blank">Seal</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">yt-dlp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SkyTubeTeam/SkyTube" target="_blank">SkyTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://snaptubes.me/" target="_blank">Snaptube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SongTube/SongTube-App" target="_blank">SongTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/polymorphicshade/Tubular" target="_blank">Tubular</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sponsor.ajay.app/" target="_blank">SponsorBlock</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://returnyoutubedislike.com/" target="_blank">Return YouTube Dislike</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🎦_movies_&_tvTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🎦 Movies & TV</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://worldscinema.org/" target="_blank">Cinema of the World</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lightdl.xyz/" target="_blank">LIGHT DOWNLOADS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mkvcinemas.how/" target="_blank">mkvCinemas</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pahe.ink/" target="_blank">Pahe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://psa.wf/" target="_blank">PSArips</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rarefilmm.com/" target="_blank">rarefilmm</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://somosmovies.com/" target="_blank">SomosMoovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://free-movies.to/" target="_blank">the movie channel</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uhdmovies.fans/" target="_blank">UHDMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vegamovies.ms/" target="_blank">Vegamovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vidnaija.com.ng/" target="_blank">Vidnaija</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://asiaflix.net/" target="_blank">Asiaflix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kisskh.co/" target="_blank">kisskh</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dramaday.me/" target="_blank">Dramaday</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kdramahood.com/" target="_blank">Dramahood</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ww3.dramanice.video/" target="_blank">Dramanice</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://einthusan.tv/" target="_blank">Einthusan</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mkvdrama.org/" target="_blank">MkvDrama</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.345movies.com/home" target="_blank">345Movies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://456movie.com/" target="_blank">456movie</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cinema.7xtream.com/" target="_blank">7Xtream</a> <a href="https://movies.7xtream.com/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ableflix.cc/" target="_blank">AbleFlix</a> <a href="https://ableflix.xyz/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://watch.autoembed.cc/" target="_blank">Autoembed</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bingemaster.netlify.app/" target="_blank">Binge</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bingeflex.vercel.app/" target="_blank">Bingeflex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.booflix.to/" target="_blank">BOOFLIX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://brocoflix.com/" target="_blank">BrocoFlix</a> <a href="https://brocoflix.xyz/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://broflix.cc/" target="_blank">BROFLIX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cataz.to/" target="_blank">Cataz</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.cineby.ru/" target="_blank">Cineby</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cinemadeck.com/" target="_blank">CinemaDeck</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cinemaunlocked.com/" target="_blank">CinemaUnlocked</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cucuflix.xyz/" target="_blank">CucuFlix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dashflix.top/" target="_blank">Dashflix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://donkey.to/" target="_blank">Donkey</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dopebox.to/" target="_blank">DopeBox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filmex.to/" target="_blank">Filmex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fmovies-hd.to/" target="_blank">FMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://a.imagem.app/3rEfOV.png" target="_blank">Note</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://flixhq.click/" target="_blank">FlixHQ</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freek.to/" target="_blank">Freek</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fsharetv.co/" target="_blank">FshareTV</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://goku.sx/" target="_blank">GOKU</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gomovies.sx/" target="_blank">GoMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.gstream.uk/" target="_blank">GStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://heartive.pages.dev/" target="_blank">Heartive</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://himovies.sx/" target="_blank">HiMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hurawatchz.to/" target="_blank">Hurawatch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hydrahd.com/" target="_blank">HydraHD</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kipflix.xyz/" target="_blank">kipflix</a> <a href="https://kipwatch.xyz/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kipstream.lol/" target="_blank">KipStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.letstream.site/" target="_blank">Letstream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lookmovie2.to/" target="_blank">LookMovie</a> <a href="https://proxymirrorlookmovie.github.io/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ww2.m4ufree.com/" target="_blank">M4uFree</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mapple.tv/" target="_blank">Mapple</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://erynith.github.io/movie-web-instances/" target="_blank">movie-web</a> <a href="https://docs.undi.rest/instances" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://movietly.com/" target="_blank">Movietly</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://movieuwutv.top/" target="_blank">MovieUwU</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://iosmirror.cc/" target="_blank">NetMirror</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nepu.to/" target="_blank">NEPU</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nunflix.live/" target="_blank">Nunflix</a> <a href="https://nunflix.org/" target="_blank">Mirror 2</a> <a href="https://nunflix-ey9.pages.dev/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://onionplay.asia/" target="_blank">OnionPlay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://popcornmovies.to/" target="_blank">PopcornMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.pressplay.top/" target="_blank">PressPlay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://putlocker.pe/" target="_blank">Putlocker</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rgshows.vercel.app/" target="_blank">RgShows</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rivestream.live/" target="_blank">Rive</a> <a href="https://rivestream.xyz/" target="_blank">Mirror 2</a> <a href="https://cinemaos-v2.vercel.app/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sflix.to/" target="_blank">SFlix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.showboxmovies.net/" target="_blank">ShowboxMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://smashystream.com/" target="_blank">Smashystream</a> <a href="https://smashystream.xyz/" target="_blank">Mirror 2</a> <a href="https://flix.smashystream.xyz/" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://watch.streamflix.one/" target="_blank">Streamflix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uniquestream.net/" target="_blank">UniqueStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vidplay.org/" target="_blank">VidPlay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://watch2day.site/" target="_blank">Watch2Day</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://watch.ug/" target="_blank">Watchug</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xprime.tv/" target="_blank">XPrime</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xpwatch-v2.pages.dev/" target="_blank">xpWatch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yesmovies.ag/" target="_blank">YesMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yassflix.live/" target="_blank">YassFlix</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://Yoyomovies.net/" target="_blank">YoYoMovies</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yuppow.com/" target="_blank">yuPPow</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://zoechip.org/" target="_blank">Zoechip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://eztvx.to/" target="_blank">EZTV</a> <a href="https://eztvstatus.org/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://msearch.vercel.app/" target="_blank">MSearch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.addic7ed.com/" target="_blank">Addic7ed</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://my-subs.co/" target="_blank">My-Subs</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.opensubtitles.com" target="_blank">OpenSubtitles</a> <a href="https://www.opensubtitles.org" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.podnapisi.net/" target="_blank">Podnapisi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://subdl.com/" target="_blank">Subdl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://subhd.tv/" target="_blank">SubHD</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://subsource.net/" target="_blank">SubSource</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.subtitlecat.com/" target="_blank">Subtitle Cat</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.tvsubs.net/" target="_blank">TVsubs</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🎹_musicTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🎹 Music</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://azmp3.cc/" target="_blank">AZMP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.bestmp3converter.com/" target="_blank">BestMP3Converter</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cobalt.tools/" target="_blank">cobalt</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://doubledouble.top/" target="_blank">DoubleDouble</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://downloadmusicschool.com/bandcamp/" target="_blank">Download from Bandcamp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://downloadsound.cloud/" target="_blank">downloadsound.cloud</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ezmp3.cc/" target="_blank">EzMP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://en2.freemp3.tube/" target="_blank">Free MP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ivigo.cc/" target="_blank">iViGo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.locoloader.com/" target="_blank">Locoloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lucida.to/" target="_blank">lucida</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://2024.myfreemp3juices.cc/" target="_blank">MYFREEMP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://shailendramaurya.github.io/racoon/" target="_blank">Racoon</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spotifydown.com/" target="_blank">SpotifyDown</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spotify-downloader.com/" target="_blank">Spotify Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spotifymate.com/" target="_blank">SpotifyMate</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://soundcloudmp3.cc/" target="_blank">SoundCloud to MP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://squid.wtf/" target="_blank">SQUID.WTF</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tubemp3.to/" target="_blank">TubeMP3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yams.tf/" target="_blank">YAMS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ytiz.xyz/" target="_blank">YTiz</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ytmdl.deepjyoti30.dev/" target="_blank">Ytmdl Web</a> <a href="https://github.com/deepjyoti30/ytmdl-web-v2" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ytmp3hub.com/" target="_blank">YTMP3Hub</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/mrpond/BlockTheSpot" target="_blank">BlockTheSpot</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://stefnotch.github.io/downline/" target="_blank">Downline</a> <a href="https://github.com/stefnotch/downline" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/mhogomchungu/media-downloader/" target="_blank">media-downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://muffon.netlify.app/" target="_blank">muffon</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nicotine-plus.org/" target="_blank">Nicotine+</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.slsknet.org/news/" target="_blank">Soulseek</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/justin025/onthespot" target="_blank">OnTheSpot</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/StefanLobbenmeier/youtube-dl-gui" target="_blank">Open Video Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yarrm80s/orpheusdl" target="_blank">OrpheusDL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/vitiko98/qobuz-dl" target="_blank">Qobuz-DL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/flyingrub/scdl" target="_blank">SCDL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.slsknet.org/news/" target="_blank">Soulseek</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spicetify.app/" target="_blank">Spicetify</a> <a href="https://github.com/spicetify/cli" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spotdl.readthedocs.io/en/latest/" target="_blank">spotDL</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spotube.krtirtho.dev/" target="_blank">Spotube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SpotX-Official/SpotX" target="_blank">SpotX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://stacher.io/" target="_blank">Stacher</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/nathom/streamrip" target="_blank">streamrip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/axcore/tartube/" target="_blank">Tartube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://doc.yaronzz.com/post/tidal_dl_installation/" target="_blank">Tidal-Media-Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://oleksis.github.io/youtube-dl-gui/" target="_blank">yt-dlg</a> <a href="https://github.com/oleksis/youtube-dl-gui" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/dsymbol/yt-dlp-gui" target="_blank">yt-dlp-gui</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/ErrorFlynn/ytdlp-interface" target="_blank">ytdlp-interface</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/yt-dlp/yt-dlp" target="_blank">YT-DLP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ytdn.netlify.app/" target="_blank">ytDownloader</a> <a href="https://github.com/aandrew-me/ytDownloader" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://zotify.xyz/" target="_blank">Zotify</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://3ost.ru/" target="_blank">3ost</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://animethemes.moe/" target="_blank">AnimeThemes</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://anitousen.com/" target="_blank">AniTousen</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bomb-music.ru/" target="_blank">BOMBMUSIC</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://canna-power.to/" target="_blank">CannaPower!</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.discografiascompletas.cc/" target="_blank">Discografiascompletas</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://archive.org/details/folksoundomy_gamesoundtracks" target="_blank">Folksoundomy: Game Soundtracks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.jpopsingles.eu/" target="_blank">JPop Singles</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kdramaost.com/" target="_blank">Kdramaost</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://downloads.khinsider.com/" target="_blank">KHInsider: Video Game Music</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kojima48.blogspot.com/" target="_blank">Kojima48</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://web.ligaudio.ru/" target="_blank">LightAudio</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lmusic.kz/" target="_blank">Lmusic</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mikudb.moe/" target="_blank">MikuDB</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://renovatiorecords.blogspot.com/" target="_blank">Renovatio Records</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.sittingonclouds.net/" target="_blank">Sitting on Clouds</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.squid-board.org/" target="_blank">SquidBoard</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sukidesuost.info/" target="_blank">Sukidesuost</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rentry.co/firehawk52" target="_blank">Firehawk52</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vgmdb.net/" target="_blank">VGMdb</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kissvk.pro/" target="_blank">KissVK</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://madnessbeat.club/" target="_blank">MadnessBeat</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://musicdex.org/" target="_blank">MusicDex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.squidify.org/" target="_blank">Squidify</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="⚙️_softwareTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>⚙️ Software</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audiotools.in/" target="_blank">AUDIOTOOLS</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://plugintorrent.com/" target="_blank">Plugintorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aedownload.com/" target="_blank">Aedownload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aeriver.com/" target="_blank">AERIVER</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://audioz.download/" target="_blank">AudioZ</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://cracksurl.com/" target="_blank">CRACKSurl</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://diakov.net/" target="_blank">DIAKOV</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.downloadha.com/" target="_blank">DownloadHa</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.downloadpirate.com/" target="_blank">Download Pirate</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freepreset.net/" target="_blank">Freepreset</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://g-meh.com/" target="_blank">G-MEH</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gfxdomain.co/" target="_blank">GFXDomain Blog</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hunterae.com/" target="_blank">HunterAE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://intro-hd.net/" target="_blank">INTRO HD</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lrepacks.net/" target="_blank">LRepacks</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.magesy.blog/" target="_blank">MaGeSY</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freevideoeffect.com/" target="_blank">MATESFX</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://motka.net/" target="_blank">motka</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://plc4me.com/" target="_blank">plc4me</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://scloud.ws/" target="_blank">SCloud</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://soft98.ir/" target="_blank">soft98</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.softlay.com/" target="_blank">Softlay</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vfxloot.com/" target="_blank">Vfxloot</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.vfxmed.com/" target="_blank">Vfxmed</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.cufonfonts.com/" target="_blank">Cufon Fonts</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.dafontfree.io/" target="_blank">Dafont Free</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.dfonts.org/" target="_blank">Dfonts</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fondfont.com/" target="_blank">FondFont</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fontmeme.com/" target="_blank">Font Meme</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.fontsquirrel.com/" target="_blank">Font Squirrel</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.fontbolt.com/" target="_blank">FontBolt</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.fontget.com/" target="_blank">FontGet</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.fonts4free.net" target="_blank">Fonts4Free</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fontshub.pro/" target="_blank">FontsHub</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.fontspace.com/" target="_blank">FontSpace</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freechinesefont.com/" target="_blank">Free Chinese Font</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freejapanesefont.com/" target="_blank">Free Japanese Font</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freekoreanfont.com/" target="_blank">Free Korean Font</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ifonts.xyz/" target="_blank">iFonts</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://textfonts.net/" target="_blank">Textfonts</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://badnoise.net/TypeRip/" target="_blank">TypeRip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://allmacworlds.com/" target="_blank">AllMacWorlds</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.macbed.com/" target="_blank">AppKed</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://appstorrent.ru/" target="_blank">Appstorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://insmac.org/" target="_blank">InsMac</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.macserialjunkie.com/forum/" target="_blank">M S J</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://macintoshgarden.org/" target="_blank">Macintosh Garden</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://macx.ws/" target="_blank">Macx</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.macappdownload.com/" target="_blank">MAD</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://nmac.to/hub/" target="_blank">NMac</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.reddit.com/r/GenP/wiki/index/" target="_blank">GenP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://w16.monkrus.ws/" target="_blank">m0nkrus</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ravesoftwaresearch.pages.dev/" target="_blank">Rave Software Search</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentmac.net/" target="_blank">Mac Torrents</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.teamos.xyz" target="_blank">Team OS</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="table-wrapper" id="🧰_toolsTable">
+                <table class="fl-table">
+                    <thead>
+                    <tr>
+                        <th>🧰 Tools</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+                    <tr>
+                        <td><a href="https://www.urbandictionary.com/define.php?term=goat" target="_blank">GOAT</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/IridiumIO/CompactGUI" target="_blank">CompactGUI</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.keka.io/" target="_blank">Keka</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/M2Team/NanaZip" target="_blank">NanaZip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://peazip.github.io/" target="_blank">PeaZip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.7-zip.org/" target="_blank">7-Zip</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.win-rar.com/" target="_blank">WinRar</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://theunarchiver.com/" target="_blank">The Unarchiver</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.win-rar.com/" target="_blank">WinRAR</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.zipware.org/" target="_blank">Zipware</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://autobrr.com/" target="_blank">autobrr</a> <a href="https://github.com/autobrr/autobrr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.bazarr.media/" target="_blank">Bazarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://radarr.video/" target="_blank">Radarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sonarr.tv/" target="_blank">Sonarr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://emby.media/" target="_blank">Emby</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://schizoduckie.github.io/DuckieTV/" target="_blank">DuckieTV</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://flexget.com/" target="_blank">FlexGet</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://jellyfin.org/" target="_blank">Jellyfin</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Jackett/Jackett" target="_blank">Jackett</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/kanishka-linux/kawaii-player" target="_blank">Kawaii-Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://kodi.tv/" target="_blank">Kodi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lidarr.audio/" target="_blank">Lidarr</a> <a href="https://github.com/Lidarr/Lidarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pymedusa.com/" target="_blank">Medusa</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lardbit.github.io/nefarious/" target="_blank">nefarious</a> <a href="https://github.com/lardbit/nefarious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/Jackett/Jackett" target="_blank">Jackett</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://transmissionbt.com/" target="_blank">Transmission</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://osmc.tv/" target="_blank">OSMC</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.plex.tv/" target="_blank">Plex</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://powder.media/" target="_blank">Powder Tech</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://prowlarr.com/" target="_blank">Prowlarr</a> <a href="https://github.com/Prowlarr/Prowlarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://radarr.video/" target="_blank">Radarr</a> <a href="https://github.com/Radarr/Radarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sickchill.github.io/" target="_blank">SickChill</a> <a href="https://github.com/SickChill/SickChill" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/SickGear/SickGear" target="_blank">SickGear</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sonarr.tv/" target="_blank">Sonarr</a> <a href="https://github.com/Sonarr/Sonarr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.stremio.com/" target="_blank">Stremio</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.universalmediaserver.com/" target="_blank">Universal Media Server</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://unpackerr.zip/" target="_blank">Unpackerr</a> <a href="https://github.com/Unpackerr/unpackerr" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aria2.github.io/" target="_blank">aria2</a> <a href="https://github.com/aria2/aria2" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.downthemall.org/" target="_blank">DownThemAll!</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.freedownloadmanager.org/" target="_blank">Free Download Manager</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filecxx.com/" target="_blank">File Centipede</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gopeed.com/" target="_blank">Gopeed</a> <a href="https://github.com/GopeedLab/gopeed" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://erickutcher.github.io/" target="_blank">HTTP Downloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://jdownloader.org/" target="_blank">JDownloader</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.motrix.app/" target="_blank">Motrix</a> <a href="https://github.com/agalwood/Motrix" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://persepolisdm.github.io/" target="_blank">Persepolis</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://aria2.github.io/" target="_blank">aria2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pyload.net/" target="_blank">pyLoad</a> <a href="https://github.com/pyload/pyload" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webextension.org/listing/turbo-download-manager-v2.html" target="_blank">Turbo Download Manager</a> <a href="https://github.com/inbasic/turbo-download-manager-v2/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://xtremedownloadmanager.com/" target="_blank">Xtreme Downloader Manager</a> <a href="https://github.com/subhra74/xdm" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://1fichier.com/" target="_blank">1fichier</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://buzzheavier.com/" target="_blank">Buzzheavier</a> <a href="https://trashbytes.net/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://catbox.moe/" target="_blank">Catbox</a> <a href="https://litterbox.catbox.moe/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://dailyuploads.net/" target="_blank">Daily Uploads</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://easyupload.io/" target="_blank">Easyupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fastupload.io/" target="_blank">Fastupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filehaus.su/" target="_blank">file.haus</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.file.io/" target="_blank">file.io</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fileditch.com/" target="_blank">Fileditch</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freedl.ink/" target="_blank">FreeDlink</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://fuckingfast.co/" target="_blank">Fuckingfast</a> <a href="https://hidan.sh/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://gofile.io/" target="_blank">Gofile</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hidan.sh/" target="_blank">Hidan</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://hexload.com/" target="_blank">Hexupload</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://krakenfiles.com/" target="_blank">KrakenFiles</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mediafire.com/" target="_blank">MediaFire</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mega.io/" target="_blank">Mega</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://megaup.net/" target="_blank">MegaUp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mixdrop.ag/" target="_blank">MixDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://oshi.at/" target="_blank">Oshi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pillowcase.su/" target="_blank">Pillowcase</a> <a href="https://plwcse.top/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://pixeldrain.com/" target="_blank">Pixeldrain</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://qiwi.gg/" target="_blank">Qiwi</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://ranoz.gg/" target="_blank">Ranoz</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.cm/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.vis.ee/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.vis.ee/" target="_blank">Send</a> <a href="https://gitlab.com/timvisee/send-instances" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.cm/" target="_blank">Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.up-4ever.net/" target="_blank">Up-4ver</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uploadnow.io/" target="_blank">UploadNow</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://uploadraja.com/" target="_blank">UploadRaja</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vikingfile.com/" target="_blank">ViKiNG FiLE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mirrorace.com/" target="_blank">MirrorAce</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.mirrored.to/" target="_blank">Mirrored</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://multiup.io/" target="_blank">MultiUp</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://blaze.vercel.app/" target="_blank">Blaze</a> <a href="https://github.com/blenderskool/blaze" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://blymp.io/" target="_blank">blymp.io</a> <a href="https://github.com/vantezzen/blymp-io" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://drop.lol" target="_blank">drop.lol</a> <a href="https://github.com/mat-sz/filedrop" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://echoduck.com/" target="_blank">EchoDuck</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://file.love/" target="_blank">FileLove</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://file.pizza/" target="_blank">FilePizza</a> <a href="https://github.com/kern/filepizza" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://send.hrzn.cool/" target="_blank">Horizon Send</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.jumbomail.me/" target="_blank">JUMBOmail</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://justbeamit.com/" target="_blank">JustBeamIt</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filetransfer.kpn.com/" target="_blank">KPN Secure File Transfer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://landrop.app/" target="_blank">LANDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://lightning-share.vercel.app/" target="_blank">LIGHTNING SHARE</a> <a href="https://github.com/chroline/lightning-share" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://localsend.org/" target="_blank">LocalSend</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://new.space/" target="_blank">new.space</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://onionshare.org/" target="_blank">OnionShare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.plustransfer.com/" target="_blank">PlusTransfer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://posilej.cz/" target="_blank">Posílej</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://rdrop.link/" target="_blank">rDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://saladroom.net/" target="_blank">Salad Room</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendfa.st/" target="_blank">SendFast</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendfilesencrypted.com/" target="_blank">Sendfilesencrypted</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.sharrr.com/" target="_blank">Sharrr</a> <a href="https://github.com/stophecom/sharrr-svelte" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://spacedrop.app/" target="_blank">SpaceDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sprend.com/" target="_blank">Sprend</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getsurge.io/" target="_blank">Surge</a> <a href="https://github.com/rule110-io/surge" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://toffeeshare.com/" target="_blank">ToffeeShare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.transfernow.net/" target="_blank">TransferNow</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webdrop.space/" target="_blank">WebDrop</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webwormhole.io/" target="_blank">WebWormhole</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wormhole.app/" target="_blank">Wormhole</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.aimp.ru/" target="_blank">AIMP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.elmedia-video-player.com/" target="_blank">Elmedia Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.foobar2000.org/" target="_blank">foobar2000</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://iina.io/" target="_blank">IINA</a> <a href="https://github.com/iina/iina" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.kmplayer.com/" target="_blank">KMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/clsid2/mpc-hc" target="_blank">Media Player Classic - Home Cinema (MPC-HC)</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://mpv.io/" target="_blank">mpv</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://getmusicbee.com/" target="_blank">MusicBee</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://potplayer.daum.net/" target="_blank">Potplayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.smplayer.info/" target="_blank">SMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.videolan.org/" target="_blank">VLC Media Player</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.un4seen.com/" target="_blank">XMPlayer</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://bitport.io/" target="_blank">Bitport</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.seedr.cc/" target="_blank">Seedr</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://torbox.app/" target="_blank">TorBox</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.torrentsafe.com/" target="_blank">Torrent Safe</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webtor.io/" target="_blank">Webtor</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.biglybt.com/" target="_blank">BiglyBT</a> <a href="https://github.com/BiglySoftware/BiglyBT" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.deluge-torrent.org/" target="_blank">Deluge</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/picotorrent/picotorrent" target="_blank">PicoTorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.pikatorrent.com/" target="_blank">PikaTorrent</a> <a href="https://github.com/G-Ray/pikatorrent" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a> <a href="https://github.com/qbittorrent/qBittorrent" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tixati.com/" target="_blank">Tixati</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://transmissionbt.com/" target="_blank">Transmission</a> <a href="https://github.com/transmission/transmission" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://wiztorrent.com/" target="_blank">WizTorrent</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://abyss.to/" target="_blank">Abyss</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://doodstream.com/" target="_blank">DoodStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://filemoon.sx/" target="_blank">FileMoon</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://media.cm/" target="_blank">Media</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://powvideo.net/" target="_blank">Powvideo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://sendvid.com/" target="_blank">Sendvid</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://streamable.com/" target="_blank">Streamable</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://streamtape.com/" target="_blank">Streamtape</a> <a href="https://streamtape.to/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://upstream.to/" target="_blank">UpStream</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://videy.co/" target="_blank">Videy</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vidoza.net/" target="_blank">Vidoza</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.vidyard.com/" target="_blank">Vidyard</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://voe.sx/" target="_blank">VOE</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://vudeo.ws/" target="_blank">Vudeo</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://webmshare.com/" target="_blank">webmshare</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO" target="_blank">KMS_VL_ALL_AIO</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://massgrave.dev/" target="_blank">Microsoft Activation Scripts (MAS)</a> <a href="https://github.com/massgravel/Microsoft-Activation-Scripts/" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://files.rg-adguard.net/" target="_blank">rg-adguard</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://tube.cadence.moe/" target="_blank">CloudTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://freetubeapp.io/" target="_blank">FreeTube</a> <a href="https://github.com/FreeTubeApp/FreeTube" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://invidious.io/" target="_blank">Invidious</a> <a href="https://github.com/iv-org/invidious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://yt.d0.cx/" target="_blank">LiteTube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://materialio.us/" target="_blank">Materialious</a> <a href="https://github.com/Materialious/Materialious" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://invidious.io/" target="_blank">Invidious</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://piped.video/" target="_blank">Piped</a> <a href="https://piped.kavin.rocks/" target="_blank">Mirror 2</a> <a href="https://github.com/TeamPiped/Piped" target="_blank">Mirror 3</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://poketube.fun/" target="_blank">Poke</a> <a href="https://github.com/ashley0143/poke" target="_blank">Mirror 2</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://www.yout-ube.com/" target="_blank">yout-ube</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/KhubaibKhan4/Youtube-Clone-KMP" target="_blank">YouTube Clone KMP</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td><a href="https://github.com/user234683/youtube-local" target="_blank">youtube-local</a></td>
+                    </tr>
+        
+                    </tbody>
+                </table>
+            </div>
+    
         </div>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', async () => {
-            try {
-                const response = await fetch('data/piracy_megathread.json');
-                const data = await response.json();
-                displaySections(data.sections);
-            } catch (error) {
-                document.getElementById('megathread-content').innerHTML = `
-                    <div class="error">
-                        Unable to load megathread content. Please try again later.
-                    </div>`;
-            }
+        document.addEventListener("DOMContentLoaded", function() {
+            showTable();
+            addTableAnimations();
         });
 
-        function parseMegathreadContent(content) {
-            // Split content into sections based on headers
-            const sections = content.split(/(?=#{1,3}\s)/);
-            return sections.map(section => {
-                const lines = section.split('\n');
-                return {
-                    title: lines[0].replace(/#/g, '').trim(),
-                    links: extractLinks(lines.slice(1).join('\n'))
-                };
+        function showTable() {
+            var category = document.getElementById("category").value;
+            var tables = document.querySelectorAll('.table-wrapper');
+            
+            tables.forEach(function(table) {
+                table.classList.add('hidden');
+                table.classList.remove('visible');
             });
+
+            var selectedTable = document.getElementById(category + "Table");
+            selectedTable.classList.remove('hidden');
+            setTimeout(() => {
+                selectedTable.classList.add('visible');
+            }, 50);
         }
 
-        function extractLinks(text) {
-            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-            const links = [];
-            let match;
-
-            while ((match = linkRegex.exec(text)) !== null) {
-                links.push({
-                    text: match[1],
-                    url: match[2]
-                });
-            }
-
-            return links;
-        }
-
-        function displaySections(sections) {
-            const container = document.getElementById('megathread-content');
-            container.innerHTML = sections.map(section => `
-                <div class="table-wrapper">
-                    <table class="fl-table">
-                        <tr>
-                            <th>${section.title}</th>
-                        </tr>
-                        ${section.links.map(link => `
-                            <tr>
-                                <td>
-                                    <a href="${link.url}" target="_blank">${link.text}</a>
-                                </td>
-                            </tr>
-                        `).join('')}
-                    </table>
-                </div>
-            `).join('');
+        function addTableAnimations() {
+            document.querySelectorAll('.table-wrapper').forEach(function(table) {
+                table.classList.add('animate-on-scroll');
+            });
         }
     </script>
 </body>

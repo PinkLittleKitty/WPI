@@ -2,57 +2,52 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-# URL of the rPiracy megathread
-url = "https://www.reddit.com/r/Piracy/wiki/megathread"
+def fetch_section_content(url):
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+    }
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        content = soup.find('div', class_='md wiki')
+        if content:
+            links = []
+            for a in content.find_all('a'):
+                href = a.get('href')
+                text = a.get_text(strip=True)
+                # Filter out megathread links and safety results
+                if (href and 
+                    not href.startswith(('#', '/u/')) and 
+                    not 'megathread' in href.lower() and
+                    not 'safety' in text.lower()):
+                    links.append({
+                        "text": text,
+                        "url": href
+                    })
+            return links
+    return []
 
-# Set headers to mimic a real browser request
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
-}
-
-# Fetch the content of the megathread
-response = requests.get(url, headers=headers)
-if response.status_code != 200:
-    print(f"Failed to retrieve the page. Status code {response.status_code}")
-    exit()
-
-# Parse the HTML content
-soup = BeautifulSoup(response.text, 'html.parser')
-
-# Initialize the JSON structure
 data = {"sections": []}
+sections = [
+    ("⛵ ➜ Not so fast sailor! Do this first", "https://www.reddit.com/r/Piracy/wiki/megathread/tools/"),
+    ("🧭 All Purpose", "https://www.reddit.com/r/Piracy/wiki/megathread/all_purpose/"),
+    ("⭐ Anime", "https://www.reddit.com/r/Piracy/wiki/megathread/anime/"),
+    ("📚 Books", "https://www.reddit.com/r/Piracy/wiki/megathread/books/"),
+    ("🕹️ Emulators", "https://www.reddit.com/r/Piracy/wiki/megathread/emulators/"),
+    ("🎮 Games", "https://www.reddit.com/r/Piracy/wiki/megathread/games/"),
+    ("📱 Mobile", "https://www.reddit.com/r/Piracy/wiki/megathread/mobile/"),
+    ("🎦 Movies & TV", "https://www.reddit.com/r/Piracy/wiki/megathread/movies_and_tv/"),
+    ("🎹 Music", "https://www.reddit.com/r/Piracy/wiki/megathread/music/"),
+    ("⚙️ Software", "https://www.reddit.com/r/Piracy/wiki/megathread/software/"),
+    ("🧰 Tools", "https://www.reddit.com/r/Piracy/wiki/megathread/tools/")
+]
 
-# Find the main content div
-main_content = soup.find('div', class_='md wiki')
+for title, url in sections:
+    links = fetch_section_content(url)
+    if links:
+        data["sections"].append({"title": title, "links": links})
 
-# Find all sections in the megathread
-sections = main_content.find_all(['h2', 'h3']) if main_content else []
-
-for section in sections:
-    section_title = section.get_text(strip=True)
-    links = []
-    current = section.find_next()
-    
-    # Continue until we hit the next section or run out of content
-    while current and current.name not in ['h2', 'h3']:
-        if current.name == 'a':
-            link_text = current.get_text(strip=True)
-            link_url = current.get('href')
-            if link_url and not link_url.startswith('#'):
-                links.append({"text": link_text, "url": link_url})
-        elif current.find_all('a'):
-            for link in current.find_all('a'):
-                link_text = link.get_text(strip=True)
-                link_url = link.get('href')
-                if link_url and not link_url.startswith('#'):
-                    links.append({"text": link_text, "url": link_url})
-        current = current.find_next()
-    
-    if links:  # Only add sections that have links
-        data["sections"].append({"title": section_title, "links": links})
-
-# Save the data to a JSON file
-with open('piracy_megathread.json', 'w', encoding='utf-8') as f:
+with open('data/piracy_megathread.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=4, ensure_ascii=False)
 
-print("JSON file 'piracy_megathread.json' has been created successfully.")
+print("JSON file created successfully with all section content.")
