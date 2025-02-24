@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piracy Megathread - WPI</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="logo">
+            <a href="index.html"><i class="fas fa-desktop"></i> WPI</a>
+        </div>
+    </nav>
+
+    <header class="site-header">
+        <h1>Piracy Megathread</h1>
+        <p class="subtitle">Live data from r/Piracy megathread</p>
+    </header>
+
+    <div class="content-container">
+        <div id="megathread-content" class="table-sections">
+            <!-- Content will be loaded here -->
+            <div class="loading">Loading megathread data...</div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                const response = await fetch('https://www.reddit.com/r/Piracy/wiki/megathread.json');
+                const data = await response.json();
+                
+                // Parse the markdown content and convert to HTML
+                const content = data.data.content_md;
+                const sections = parseMegathreadContent(content);
+                
+                displaySections(sections);
+            } catch (error) {
+                document.getElementById('megathread-content').innerHTML = `
+                    <div class="error">
+                        Unable to load megathread content directly due to CORS. 
+                        <a href="https://www.reddit.com/r/Piracy/wiki/megathread/" target="_blank">
+                            View on Reddit instead
+                        </a>
+                    </div>`;
+            }
+        });
+
+        function parseMegathreadContent(content) {
+            // Split content into sections based on headers
+            const sections = content.split(/(?=#{1,3}\s)/);
+            return sections.map(section => {
+                const lines = section.split('\n');
+                return {
+                    title: lines[0].replace(/#/g, '').trim(),
+                    links: extractLinks(lines.slice(1).join('\n'))
+                };
+            });
+        }
+
+        function extractLinks(text) {
+            const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+            const links = [];
+            let match;
+
+            while ((match = linkRegex.exec(text)) !== null) {
+                links.push({
+                    text: match[1],
+                    url: match[2]
+                });
+            }
+
+            return links;
+        }
+
+        function displaySections(sections) {
+            const container = document.getElementById('megathread-content');
+            container.innerHTML = sections.map(section => `
+                <div class="table-wrapper">
+                    <table class="fl-table">
+                        <tr>
+                            <th>${section.title}</th>
+                        </tr>
+                        ${section.links.map(link => `
+                            <tr>
+                                <td>
+                                    <a href="${link.url}" target="_blank">${link.text}</a>
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </table>
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
