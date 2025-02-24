@@ -1,0 +1,502 @@
+{
+    "sections": [
+        {
+            "title": "⛵ ➜ Not so fast sailor! Do this first",
+            "links": [
+                {
+                    "text": "Firefox",
+                    "url": "https://mozilla.org/firefox/new/"
+                },
+                {
+                    "text": "uBlock Origin",
+                    "url": "https://addons.mozilla.org/firefox/addon/ublock-origin/"
+                },
+                {
+                    "text": "best compatibility",
+                    "url": "https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+                },
+                {
+                    "text": "DNS",
+                    "url": "https://www.privacyguides.org/en/dns/"
+                },
+                {
+                    "text": "qBittorrent",
+                    "url": "https://www.qbittorrent.org/"
+                },
+                {
+                    "text": "torrent files",
+                    "url": "https://en.wikipedia.org/wiki/Torrent_file"
+                },
+                {
+                    "text": "direct downloads",
+                    "url": "https://en.wikipedia.org/wiki/Direct_download_link"
+                },
+                {
+                    "text": "AirVPN",
+                    "url": "https://airvpn.org/"
+                },
+                {
+                    "text": "ProtonVPN",
+                    "url": "https://protonvpn.com/"
+                },
+                {
+                    "text": "Bind VPN network",
+                    "url": "https://www.reddit.com/r/VPNTorrents/comments/ssy8vv/guide_bind_vpn_network_interface_to_torrent/"
+                },
+                {
+                    "text": "Firefox",
+                    "url": "https://mozilla.org/firefox/new/"
+                },
+                {
+                    "text": "uBlock Origin",
+                    "url": "https://addons.mozilla.org/firefox/addon/ublock-origin/"
+                },
+                {
+                    "text": "best compatibility",
+                    "url": "https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+                },
+                {
+                    "text": "Firefox",
+                    "url": "https://mozilla.org/firefox/new/"
+                },
+                {
+                    "text": "uBlock Origin",
+                    "url": "https://addons.mozilla.org/firefox/addon/ublock-origin/"
+                },
+                {
+                    "text": "Firefox",
+                    "url": "https://mozilla.org/firefox/new/"
+                },
+                {
+                    "text": "uBlock Origin",
+                    "url": "https://addons.mozilla.org/firefox/addon/ublock-origin/"
+                },
+                {
+                    "text": "best compatibility",
+                    "url": "https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+                },
+                {
+                    "text": "best compatibility",
+                    "url": "https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+                },
+                {
+                    "text": "best compatibility",
+                    "url": "https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox"
+                },
+                {
+                    "text": "DNS",
+                    "url": "https://www.privacyguides.org/en/dns/"
+                },
+                {
+                    "text": "DNS",
+                    "url": "https://www.privacyguides.org/en/dns/"
+                },
+                {
+                    "text": "DNS",
+                    "url": "https://www.privacyguides.org/en/dns/"
+                },
+                {
+                    "text": "qBittorrent",
+                    "url": "https://www.qbittorrent.org/"
+                },
+                {
+                    "text": "torrent files",
+                    "url": "https://en.wikipedia.org/wiki/Torrent_file"
+                },
+                {
+                    "text": "direct downloads",
+                    "url": "https://en.wikipedia.org/wiki/Direct_download_link"
+                },
+                {
+                    "text": "qBittorrent",
+                    "url": "https://www.qbittorrent.org/"
+                },
+                {
+                    "text": "qBittorrent",
+                    "url": "https://www.qbittorrent.org/"
+                },
+                {
+                    "text": "torrent files",
+                    "url": "https://en.wikipedia.org/wiki/Torrent_file"
+                },
+                {
+                    "text": "direct downloads",
+                    "url": "https://en.wikipedia.org/wiki/Direct_download_link"
+                },
+                {
+                    "text": "torrent files",
+                    "url": "https://en.wikipedia.org/wiki/Torrent_file"
+                },
+                {
+                    "text": "direct downloads",
+                    "url": "https://en.wikipedia.org/wiki/Direct_download_link"
+                },
+                {
+                    "text": "torrent files",
+                    "url": "https://en.wikipedia.org/wiki/Torrent_file"
+                },
+                {
+                    "text": "direct downloads",
+                    "url": "https://en.wikipedia.org/wiki/Direct_download_link"
+                },
+                {
+                    "text": "AirVPN",
+                    "url": "https://airvpn.org/"
+                },
+                {
+                    "text": "ProtonVPN",
+                    "url": "https://protonvpn.com/"
+                },
+                {
+                    "text": "AirVPN",
+                    "url": "https://airvpn.org/"
+                },
+                {
+                    "text": "ProtonVPN",
+                    "url": "https://protonvpn.com/"
+                },
+                {
+                    "text": "AirVPN",
+                    "url": "https://airvpn.org/"
+                },
+                {
+                    "text": "ProtonVPN",
+                    "url": "https://protonvpn.com/"
+                },
+                {
+                    "text": "Bind VPN network",
+                    "url": "https://www.reddit.com/r/VPNTorrents/comments/ssy8vv/guide_bind_vpn_network_interface_to_torrent/"
+                },
+                {
+                    "text": "Bind VPN network",
+                    "url": "https://www.reddit.com/r/VPNTorrents/comments/ssy8vv/guide_bind_vpn_network_interface_to_torrent/"
+                },
+                {
+                    "text": "Bind VPN network",
+                    "url": "https://www.reddit.com/r/VPNTorrents/comments/ssy8vv/guide_bind_vpn_network_interface_to_torrent/"
+                },
+                {
+                    "text": "u/Ashley__09",
+                    "url": "/u/Ashley__09"
+                },
+                {
+                    "text": "u/FeatherThePirate",
+                    "url": "/u/FeatherThePirate"
+                },
+                {
+                    "text": "u/LZ129Hindenburg",
+                    "url": "/u/LZ129Hindenburg"
+                },
+                {
+                    "text": "u/sunbrothersco",
+                    "url": "/u/sunbrothersco"
+                },
+                {
+                    "text": "u/Ashley__09",
+                    "url": "/u/Ashley__09"
+                },
+                {
+                    "text": "u/FeatherThePirate",
+                    "url": "/u/FeatherThePirate"
+                },
+                {
+                    "text": "u/LZ129Hindenburg",
+                    "url": "/u/LZ129Hindenburg"
+                },
+                {
+                    "text": "u/sunbrothersco",
+                    "url": "/u/sunbrothersco"
+                },
+                {
+                    "text": "u/Ashley__09",
+                    "url": "/u/Ashley__09"
+                },
+                {
+                    "text": "u/FeatherThePirate",
+                    "url": "/u/FeatherThePirate"
+                },
+                {
+                    "text": "u/LZ129Hindenburg",
+                    "url": "/u/LZ129Hindenburg"
+                },
+                {
+                    "text": "u/sunbrothersco",
+                    "url": "/u/sunbrothersco"
+                }
+            ]
+        },
+        {
+            "title": "👑 ➜ Quality over quantity",
+            "links": [
+                {
+                    "text": "Quality Control",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/quality-control/"
+                },
+                {
+                    "text": "Rentry",
+                    "url": "https://rentry.co/megathread"
+                },
+                {
+                    "text": "2",
+                    "url": "https://rentry.org/megathread"
+                },
+                {
+                    "text": "Quality Control",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/quality-control/"
+                },
+                {
+                    "text": "Quality Control",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/quality-control/"
+                },
+                {
+                    "text": "Rentry",
+                    "url": "https://rentry.co/megathread"
+                },
+                {
+                    "text": "2",
+                    "url": "https://rentry.org/megathread"
+                },
+                {
+                    "text": "Rentry",
+                    "url": "https://rentry.co/megathread"
+                },
+                {
+                    "text": "2",
+                    "url": "https://rentry.org/megathread"
+                }
+            ]
+        },
+        {
+            "title": "🧭All Purpose",
+            "links": [
+                {
+                    "text": "All Purpose",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/all_purpose/"
+                }
+            ]
+        },
+        {
+            "title": "⭐Anime",
+            "links": [
+                {
+                    "text": "Anime",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/anime/"
+                }
+            ]
+        },
+        {
+            "title": "📚Books",
+            "links": [
+                {
+                    "text": "Books",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/books/"
+                }
+            ]
+        },
+        {
+            "title": "🕹️Emulators",
+            "links": [
+                {
+                    "text": "Emulators",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/emulators/"
+                }
+            ]
+        },
+        {
+            "title": "🎮Games",
+            "links": [
+                {
+                    "text": "Games",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/games/"
+                }
+            ]
+        },
+        {
+            "title": "📱Mobile",
+            "links": [
+                {
+                    "text": "Mobile",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/mobile/"
+                }
+            ]
+        },
+        {
+            "title": "🎦Movies & TV",
+            "links": [
+                {
+                    "text": "Movies & TV",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/movies_and_tv"
+                }
+            ]
+        },
+        {
+            "title": "🎹Music",
+            "links": [
+                {
+                    "text": "Music",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/music/"
+                }
+            ]
+        },
+        {
+            "title": "⚙️Software",
+            "links": [
+                {
+                    "text": "Software",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/software/"
+                }
+            ]
+        },
+        {
+            "title": "👟Sports(Update in progress...)",
+            "links": [
+                {
+                    "text": "Sports",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/sports/"
+                }
+            ]
+        },
+        {
+            "title": "🧰Tools",
+            "links": [
+                {
+                    "text": "Tools",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/tools/"
+                }
+            ]
+        },
+        {
+            "title": "☣️Unsafe Sites",
+            "links": [
+                {
+                    "text": "Unsafe Sites",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/megathread/unsafe-sites/"
+                }
+            ]
+        },
+        {
+            "title": "📁Awesome Piracy",
+            "links": [
+                {
+                    "text": "Awesome Piracy",
+                    "url": "https://shakil-shahadat.github.io/awesome-piracy/"
+                }
+            ]
+        },
+        {
+            "title": "📁Champagne Piracy Wiki",
+            "links": [
+                {
+                    "text": "Champagne Piracy Wiki",
+                    "url": "https://champagne.pages.dev/"
+                }
+            ]
+        },
+        {
+            "title": "📁EverythingMoe",
+            "links": [
+                {
+                    "text": "EverythingMoe",
+                    "url": "https://everythingmoe.com/"
+                }
+            ]
+        },
+        {
+            "title": "📁FMHY",
+            "links": [
+                {
+                    "text": "FMHY",
+                    "url": "https://fmhy.net/"
+                }
+            ]
+        },
+        {
+            "title": "📁MediaSavvy",
+            "links": [
+                {
+                    "text": "MediaSavvy",
+                    "url": "https://mediasavvy.pages.dev/"
+                }
+            ]
+        },
+        {
+            "title": "📁Porn Dude• NSFW",
+            "links": [
+                {
+                    "text": "Porn Dude",
+                    "url": "https://theporndude.com/"
+                }
+            ]
+        },
+        {
+            "title": "📁Ripped",
+            "links": [
+                {
+                    "text": "Ripped",
+                    "url": "https://ripped.guide/"
+                }
+            ]
+        },
+        {
+            "title": "📁The Index",
+            "links": [
+                {
+                    "text": "The Index",
+                    "url": "https://theindex.moe/"
+                }
+            ]
+        },
+        {
+            "title": "📁Wiki Index",
+            "links": [
+                {
+                    "text": "Wiki Index",
+                    "url": "https://wiki-index.pages.dev/"
+                }
+            ]
+        },
+        {
+            "title": "📁Wotaku",
+            "links": [
+                {
+                    "text": "Wotaku",
+                    "url": "https://wotaku.wiki/"
+                }
+            ]
+        },
+        {
+            "title": "⚓ ❮ Return tor/Piracy",
+            "links": [
+                {
+                    "text": "r/Piracy",
+                    "url": "/r/Piracy"
+                },
+                {
+                    "text": "r/Piracy",
+                    "url": "/r/Piracy"
+                }
+            ]
+        },
+        {
+            "title": "💀 ❮ Return toWiki",
+            "links": [
+                {
+                    "text": "Wiki",
+                    "url": "https://www.reddit.com/r/Piracy/wiki/index/"
+                },
+                {
+                    "text": "sunbrothersco",
+                    "url": "/user/sunbrothersco/"
+                },
+                {
+                    "text": "sunbrothersco",
+                    "url": "/user/sunbrothersco/"
+                },
+                {
+                    "text": "sunbrothersco",
+                    "url": "/user/sunbrothersco/"
+                }
+            ]
+        }
+    ]
+}

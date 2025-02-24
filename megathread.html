@@ -30,21 +30,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             try {
-                const response = await fetch('https://www.reddit.com/r/Piracy/wiki/megathread.json');
+                const response = await fetch('./data/piracy_megathread.json');
                 const data = await response.json();
-                
-                // Parse the markdown content and convert to HTML
-                const content = data.data.content_md;
-                const sections = parseMegathreadContent(content);
-                
-                displaySections(sections);
+                displaySections(data.sections);
             } catch (error) {
                 document.getElementById('megathread-content').innerHTML = `
                     <div class="error">
-                        Unable to load megathread content directly due to CORS. 
-                        <a href="https://www.reddit.com/r/Piracy/wiki/megathread/" target="_blank">
-                            View on Reddit instead
-                        </a>
+                        Unable to load megathread content. Please try again later.
                     </div>`;
             }
         });
