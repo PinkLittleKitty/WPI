@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' data: https:;">
 </head>
 <body>
     <nav class="top-nav">
@@ -30,7 +32,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
             try {
-                const response = await fetch('./data/piracy_megathread.json');
+                const response = await fetch('data/piracy_megathread.json');
                 const data = await response.json();
                 displaySections(data.sections);
             } catch (error) {
