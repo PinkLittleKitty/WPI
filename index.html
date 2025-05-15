@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/animations.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
 </head>
 
 <body>
@@ -18,6 +19,9 @@
             <a href="megathread.html"><i class="fas fa-book"></i> Megathread</a>
         </div>
         <div class="nav-controls">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
             <label for="category">Elegir Categoría:</label>
             <select id="category" onchange="showTable()">
                 <option value="windows">📑 Office y Windows</option>
@@ -44,6 +48,22 @@
             Si algo pide contraseña, es www.compucalitv.com
         </div>
     </header>
+
+    <div class="search-container">
+        <div class="search-box">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" id="searchInput" placeholder="Buscar herramientas, software, juegos...">
+            <button id="clearSearch" class="clear-search"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="view-toggle">
+            <button id="tableView" class="view-button active" aria-label="Vista de tabla">
+                <i class="fas fa-table"></i>
+            </button>
+            <button id="cardView" class="view-button" aria-label="Vista de tarjetas">
+                <i class="fas fa-th-large"></i>
+            </button>
+        </div>
+    </div>
 
     <div class="content-container">
         <div class="table-sections">
@@ -568,33 +588,10 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            showTable();
-            addTableAnimations();
-        });
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
-        function showTable() {
-            var category = document.getElementById("category").value;
-            var tables = document.querySelectorAll('.table-wrapper');
-            
-            tables.forEach(function(table) {
-                table.classList.add('hidden');
-                table.classList.remove('visible');
-            });
-
-            var selectedTable = document.getElementById(category + "Table");
-            selectedTable.classList.remove('hidden');
-            setTimeout(() => {
-                selectedTable.classList.add('visible');
-            }, 50);
-        }
-
-        function addTableAnimations() {
-            document.querySelectorAll('.table-wrapper').forEach(function(table) {
-                table.classList.add('animate-on-scroll');
-            });
-        }
-    </script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
